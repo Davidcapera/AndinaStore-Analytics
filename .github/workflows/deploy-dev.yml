@@ -1,26 +1,509 @@
-name: Deploy AndinaStore DEV
+name: Deploy AndinaStore PROD
 
 on:
+  push:
+    branches:
+      - main
+
   workflow_dispatch:
 
 jobs:
-  deploy-dev:
+  deploy-prod:
+
     runs-on: ubuntu-latest
 
-    env:
-      DATABRICKS_HOST: https://adb-7405608462251422.2.azuredatabricks.net/
-      DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN_DEV }}
-
     steps:
+
+      # ======================================================
+      # 1. CHECKOUT DEL REPOSITORIO
+      # ======================================================
 
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Databricks CLI
-        uses: databricks/setup-cli@main
 
-      - name: Validate DEV bundle
-        run: databricks bundle validate -t dev
+      # ======================================================
+      # 2. INSTALAR HERRAMIENTAS
+      # ======================================================
 
-      - name: Deploy DEV bundle
-        run: databricks bundle deploy -t dev
+      - name: Install jq and curl
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq curl
+
+
+      # ======================================================
+      # 3. CONFIGURACION
+      # ======================================================
+
+      - name: Configure deployment
+        run: |
+          echo "DEV_HOST=https://adb-7405608462251422.2.azuredatabricks.net" >> $GITHUB_ENV
+          echo "PROD_HOST=https://adb-7405618460502866.6.azuredatabricks.net" >> $GITHUB_ENV
+
+          echo "DEV_BASE=/Workspace/Users/pulsered2026@outlook.com/AndinaStore-Analytics" >> $GITHUB_ENV
+
+          echo "PROD_PREAMB=/Workspace/Users/pulsered2026@outlook.com/PrepAmb" >> $GITHUB_ENV
+          echo "PROD_PROCESO=/Workspace/Users/pulsered2026@outlook.com/proceso" >> $GITHUB_ENV
+          echo "PROD_REVERSION=/Workspace/Users/pulsered2026@outlook.com/reversion" >> $GITHUB_ENV
+
+          echo "WORKFLOW_NAME=ETL ANDINASTORE" >> $GITHUB_ENV
+
+
+      # ======================================================
+      # 4. CREAR DIRECTORIO TEMPORAL
+      # ======================================================
+
+      - name: Create temporary directory
+        run: |
+          mkdir -p notebooks_to_deploy/PreAmb
+          mkdir -p notebooks_to_deploy/proceso
+          mkdir -p notebooks_to_deploy/reversion
+
+
+      # ======================================================
+      # 5. EXPORTAR PREAMB DESDE DATABRICKS DEV
+      # ======================================================
+
+      - name: Export PreAmb from DEV
+        env:
+          DEV_TOKEN: ${{ secrets.DATABRICKS_TOKEN_DEV }}
+
+        run: |
+
+          SOURCE_PATH="$DEV_BASE/PreAmb/01_preparacion_ambiente"
+
+          echo "Exportando:"
+          echo "$SOURCE_PATH"
+
+          HTTP_CODE=$(curl -s \
+            -w "%{http_code}" \
+            -o "notebooks_to_deploy/PreAmb/01_preparacion_ambiente.py" \
+            -X GET \
+            -H "Authorization: Bearer $DEV_TOKEN" \
+            "$DEV_HOST/api/2.0/workspace/export?path=$SOURCE_PATH&format=SOURCE&direct_download=true")
+
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "ERROR exportando 01_preparacion_ambiente"
+            echo "HTTP CODE: $HTTP_CODE"
+            exit 1
+          fi
+
+          echo "PreAmb exportado correctamente."
+
+
+      # ======================================================
+      # 6. EXPORTAR PROCESO DESDE DATABRICKS DEV
+      # ======================================================
+
+      - name: Export proceso from DEV
+        env:
+          DEV_TOKEN: ${{ secrets.DATABRICKS_TOKEN_DEV }}
+
+        run: |
+
+          NOTEBOOKS=(
+            "01_extract"
+            "02_transform"
+            "03_load"
+            "04_grants"
+          )
+
+          for nb in "${NOTEBOOKS[@]}"; do
+
+            SOURCE_PATH="$DEV_BASE/proceso/$nb"
+
+            echo "Exportando:"
+            echo "$SOURCE_PATH"
+
+            HTTP_CODE=$(curl -s \
+              -w "%{http_code}" \
+              -o "notebooks_to_deploy/proceso/$nb.py" \
+              -X GET \
+              -H "Authorization: Bearer $DEV_TOKEN" \
+              "$DEV_HOST/api/2.0/workspace/export?path=$SOURCE_PATH&format=SOURCE&direct_download=true")
+
+            if [ "$HTTP_CODE" != "200" ]; then
+              echo "ERROR exportando $nb"
+              echo "HTTP CODE: $HTTP_CODE"
+              exit 1
+            fi
+
+          done
+
+          echo "Notebooks de proceso exportados correctamente."
+
+
+      # ======================================================
+      # 7. EXPORTAR REVERSION DESDE DATABRICKS DEV
+      # ======================================================
+
+      - name: Export reversion from DEV
+        env:
+          DEV_TOKEN: ${{ secrets.DATABRICKS_TOKEN_DEV }}
+
+        run: |
+
+          NOTEBOOKS=(
+            "01_rollback_dev"
+            "02_rollback_prod"
+          )
+
+          for nb in "${NOTEBOOKS[@]}"; do
+
+            SOURCE_PATH="$DEV_BASE/reversion/$nb"
+
+            echo "Exportando:"
+            echo "$SOURCE_PATH"
+
+            HTTP_CODE=$(curl -s \
+              -w "%{http_code}" \
+              -o "notebooks_to_deploy/reversion/$nb.py" \
+              -X GET \
+              -H "Authorization: Bearer $DEV_TOKEN" \
+              "$DEV_HOST/api/2.0/workspace/export?path=$SOURCE_PATH&format=SOURCE&direct_download=true")
+
+            if [ "$HTTP_CODE" != "200" ]; then
+              echo "ERROR exportando $nb"
+              echo "HTTP CODE: $HTTP_CODE"
+              exit 1
+            fi
+
+          done
+
+          echo "Notebooks de reversion exportados correctamente."
+
+
+      # ======================================================
+      # 8. CREAR CARPETAS DESTINO EN PROD
+      # ======================================================
+
+      - name: Create PROD folders
+        env:
+          PROD_TOKEN: ${{ secrets.DATABRICKS_TOKEN_PROD }}
+
+        run: |
+
+          for folder in \
+            "$PROD_PREAMB" \
+            "$PROD_PROCESO" \
+            "$PROD_REVERSION"
+
+          do
+
+            echo "Verificando/creando:"
+            echo "$folder"
+
+            curl -s \
+              -X POST \
+              -H "Authorization: Bearer $PROD_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d "{\"path\":\"$folder\"}" \
+              "$PROD_HOST/api/2.0/workspace/mkdirs"
+
+          done
+
+
+      # ======================================================
+      # 9. IMPORTAR PREAMB A PROD
+      # ======================================================
+
+      - name: Deploy PreAmb to PROD
+        env:
+          PROD_TOKEN: ${{ secrets.DATABRICKS_TOKEN_PROD }}
+
+        run: |
+
+          FILE="notebooks_to_deploy/PreAmb/01_preparacion_ambiente.py"
+          DEST="$PROD_PREAMB/01_preparacion_ambiente"
+
+          echo "Desplegando:"
+          echo "$DEST"
+
+          RESPONSE=$(curl -s \
+            -w "\n%{http_code}" \
+            -X POST \
+            -H "Authorization: Bearer $PROD_TOKEN" \
+            -F "path=$DEST" \
+            -F "format=SOURCE" \
+            -F "language=PYTHON" \
+            -F "overwrite=true" \
+            -F "content=@$FILE" \
+            "$PROD_HOST/api/2.0/workspace/import")
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "ERROR desplegando PreAmb"
+            echo "$RESPONSE"
+            exit 1
+          fi
+
+          echo "PreAmb desplegado correctamente."
+
+
+      # ======================================================
+      # 10. IMPORTAR PROCESO A PROD
+      # ======================================================
+
+      - name: Deploy proceso to PROD
+        env:
+          PROD_TOKEN: ${{ secrets.DATABRICKS_TOKEN_PROD }}
+
+        run: |
+
+          for file in notebooks_to_deploy/proceso/*.py; do
+
+            NAME=$(basename "$file" .py)
+
+            DEST="$PROD_PROCESO/$NAME"
+
+            echo "Desplegando:"
+            echo "$DEST"
+
+            RESPONSE=$(curl -s \
+              -w "\n%{http_code}" \
+              -X POST \
+              -H "Authorization: Bearer $PROD_TOKEN" \
+              -F "path=$DEST" \
+              -F "format=SOURCE" \
+              -F "language=PYTHON" \
+              -F "overwrite=true" \
+              -F "content=@$file" \
+              "$PROD_HOST/api/2.0/workspace/import")
+
+            HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+
+            if [ "$HTTP_CODE" != "200" ]; then
+              echo "ERROR desplegando $NAME"
+              echo "$RESPONSE"
+              exit 1
+            fi
+
+          done
+
+          echo "Proceso desplegado correctamente."
+
+
+      # ======================================================
+      # 11. IMPORTAR REVERSION A PROD
+      # ======================================================
+
+      - name: Deploy reversion to PROD
+        env:
+          PROD_TOKEN: ${{ secrets.DATABRICKS_TOKEN_PROD }}
+
+        run: |
+
+          for file in notebooks_to_deploy/reversion/*.py; do
+
+            NAME=$(basename "$file" .py)
+
+            DEST="$PROD_REVERSION/$NAME"
+
+            echo "Desplegando:"
+            echo "$DEST"
+
+            RESPONSE=$(curl -s \
+              -w "\n%{http_code}" \
+              -X POST \
+              -H "Authorization: Bearer $PROD_TOKEN" \
+              -F "path=$DEST" \
+              -F "format=SOURCE" \
+              -F "language=PYTHON" \
+              -F "overwrite=true" \
+              -F "content=@$file" \
+              "$PROD_HOST/api/2.0/workspace/import")
+
+            HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+
+            if [ "$HTTP_CODE" != "200" ]; then
+              echo "ERROR desplegando $NAME"
+              echo "$RESPONSE"
+              exit 1
+            fi
+
+          done
+
+          echo "Reversion desplegada correctamente."
+
+
+      # ======================================================
+      # 12. BUSCAR WORKFLOW PROD
+      # ======================================================
+
+      - name: Find ETL ANDINASTORE Workflow
+        env:
+          PROD_TOKEN: ${{ secrets.DATABRICKS_TOKEN_PROD }}
+
+        run: |
+
+          echo "Buscando Workflow:"
+          echo "$WORKFLOW_NAME"
+
+          RESPONSE=$(curl -s \
+            -X GET \
+            -H "Authorization: Bearer $PROD_TOKEN" \
+            "$PROD_HOST/api/2.1/jobs/list")
+
+          JOB_ID=$(echo "$RESPONSE" | jq -r \
+            --arg NAME "$WORKFLOW_NAME" \
+            '.jobs[]? | select(.settings.name == $NAME) | .job_id' \
+            | head -n 1)
+
+          if [ -z "$JOB_ID" ] || [ "$JOB_ID" = "null" ]; then
+
+            echo "ERROR:"
+            echo "No se encontro el Workflow $WORKFLOW_NAME"
+            exit 1
+
+          fi
+
+          echo "Workflow encontrado."
+          echo "Job ID: $JOB_ID"
+
+          echo "JOB_ID=$JOB_ID" >> $GITHUB_ENV
+
+
+      # ======================================================
+      # 13. EJECUTAR WORKFLOW PROD
+      # ======================================================
+
+      - name: Run ETL ANDINASTORE
+        env:
+          PROD_TOKEN: ${{ secrets.DATABRICKS_TOKEN_PROD }}
+
+        run: |
+
+          echo "Ejecutando Workflow:"
+          echo "$WORKFLOW_NAME"
+
+          RESPONSE=$(curl -s \
+            -X POST \
+            -H "Authorization: Bearer $PROD_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"job_id\": $JOB_ID}" \
+            "$PROD_HOST/api/2.1/jobs/run-now")
+
+          echo "$RESPONSE"
+
+          RUN_ID=$(echo "$RESPONSE" | jq -r '.run_id')
+
+          if [ -z "$RUN_ID" ] || [ "$RUN_ID" = "null" ]; then
+
+            echo "ERROR iniciando Workflow."
+            exit 1
+
+          fi
+
+          echo "Workflow iniciado."
+          echo "Run ID: $RUN_ID"
+
+          echo "RUN_ID=$RUN_ID" >> $GITHUB_ENV
+
+
+      # ======================================================
+      # 14. MONITOREAR WORKFLOW
+      # ======================================================
+
+      - name: Monitor ETL ANDINASTORE
+        env:
+          PROD_TOKEN: ${{ secrets.DATABRICKS_TOKEN_PROD }}
+
+        run: |
+
+          MAX_WAIT=1200
+          INTERVAL=30
+          WAITED=0
+
+          echo "Monitoreando Workflow..."
+
+          while [ $WAITED -lt $MAX_WAIT ]; do
+
+            RESPONSE=$(curl -s \
+              -X GET \
+              -H "Authorization: Bearer $PROD_TOKEN" \
+              "$PROD_HOST/api/2.1/jobs/runs/get?run_id=$RUN_ID")
+
+            LIFE_CYCLE=$(echo "$RESPONSE" | jq -r '.state.life_cycle_state')
+
+            RESULT=$(echo "$RESPONSE" | jq -r '.state.result_state // "RUNNING"')
+
+            echo "Estado: $LIFE_CYCLE"
+            echo "Resultado: $RESULT"
+
+            echo "$RESPONSE" | jq -r \
+              '.tasks[]? |
+              "Task: " + .task_key +
+              " | Estado: " + .state.life_cycle_state +
+              " | Resultado: " + (.state.result_state // "RUNNING")'
+
+            if [ "$LIFE_CYCLE" = "TERMINATED" ]; then
+
+              if [ "$RESULT" = "SUCCESS" ]; then
+
+                echo "========================================"
+                echo "WORKFLOW COMPLETADO CORRECTAMENTE"
+                echo "========================================"
+
+                exit 0
+
+              else
+
+                echo "========================================"
+                echo "WORKFLOW TERMINO CON ERROR"
+                echo "RESULTADO: $RESULT"
+                echo "========================================"
+
+                exit 1
+
+              fi
+
+            fi
+
+            if [ "$LIFE_CYCLE" = "INTERNAL_ERROR" ]; then
+
+              echo "Workflow termino con INTERNAL_ERROR."
+              exit 1
+
+            fi
+
+            sleep $INTERVAL
+
+            WAITED=$((WAITED + INTERVAL))
+
+          done
+
+          echo "El Workflow continua ejecutandose despues del tiempo de monitoreo."
+          echo "Revisar directamente en Databricks."
+
+          exit 1
+
+
+      # ======================================================
+      # 15. LIMPIEZA
+      # ======================================================
+
+      - name: Clean temporary files
+        if: always()
+
+        run: |
+          rm -rf notebooks_to_deploy
+
+
+      # ======================================================
+      # 16. FINAL
+      # ======================================================
+
+      - name: Deployment completed
+
+        run: |
+          echo "========================================"
+          echo "ANDINASTORE PROD"
+          echo "========================================"
+          echo "Deployment completado."
+          echo "PreAmb desplegado."
+          echo "Proceso desplegado."
+          echo "Reversion desplegada."
+          echo "Workflow ETL ANDINASTORE ejecutado."
+          echo "========================================"
