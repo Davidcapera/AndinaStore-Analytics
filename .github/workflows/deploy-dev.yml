@@ -1,0 +1,26 @@
+name: Deploy AndinaStore DEV
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-dev:
+    runs-on: ubuntu-latest
+
+    env:
+      DATABRICKS_HOST: https://adb-7405608462251422.2.azuredatabricks.net/
+      DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN_DEV }}
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Databricks CLI
+        uses: databricks/setup-cli@main
+
+      - name: Validate DEV bundle
+        run: databricks bundle validate -t dev
+
+      - name: Deploy DEV bundle
+        run: databricks bundle deploy -t dev
