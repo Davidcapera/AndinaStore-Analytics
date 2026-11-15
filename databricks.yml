@@ -1,6 +1,11 @@
 bundle:
   name: andinastore-analytics
-
+sync:
+  paths:
+    - PreAmb
+    - proceso
+    - reversion
+    
 targets:
 
   dev:
