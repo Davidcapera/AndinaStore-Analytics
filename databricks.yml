@@ -1,0 +1,18 @@
+bundle:
+  name: andinastore-analytics
+
+targets:
+
+  dev:
+    default: true
+    mode: development
+
+    workspace:
+      host: https://adb-7405608462251422.2.azuredatabricks.net/
+
+
+  prod:
+    mode: production
+
+    workspace:
+      host: https://adb-7405618460502866.6.azuredatabricks.net/
