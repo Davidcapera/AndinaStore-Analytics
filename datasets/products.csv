@@ -1,0 +1,101 @@
+﻿product_id,product_name,category,brand,price,cost,active
+P001,Botella térmica 01,Deportes,,583900.00,416000.00,false
+P002,Hervidor eléctrico 02,Hogar,,458000.00,386000.00,true
+P003,Banda elástica 03,Deportes,,365600.00,262000.00,false
+P004,Organizador de escritorio 04,Oficina,,472200.00,399000.00,true
+P005,Base para portátil 05,Tecnología,,867100.00,568000.00,true
+P006,Aspiradora 06,Hogar,,401200.00,316000.00,true
+P007,Cable HDMI 07,Accesorios,,470200.00,369000.00,true
+P008,Hervidor eléctrico 08,Hogar,,332400.00,210000.00,true
+P009,Ventilador 09,HOGAR,Haceb,450400.00,301000.00,true
+P010,Soporte para celular 10,ACCESORIOS,Totto,551600.00,337000.00,true
+P011,Memoria USB 128GB 11,TECNOLOGÍA,Lenovo,754900.00,499000.00,true
+P012,Aspiradora 12,HOGAR,Logitech,435400.00,301000.00,true
+P013,Protector de voltaje 13,ACCESORIOS,HP,102700.00,65000.00,true
+P014,Aspiradora 14,Hogar,Adidas,-25000.00,153000.00,true
+P015,Balón deportivo 15,Deportes,Adidas,723200.00,0.00,true
+P016,Hub USB 16,Accesorios,HP,165600.00,111000.00,true
+P017,Base para portátil 17,Tecnología,Lenovo,823400.00,600000.00,true
+P018,Soporte para celular 18,Accesorios,Adidas,318400.00,197000.00,true
+P019,Webcam HD 19,Tecnología,Logitech,150500.00,100000.00,true
+P020,Botella térmica 20,Deportes,Xiaomi,621400.00,473000.00,true
+P021,Teclado mecánico 21,Tecnología,Haceb,524000.00,329000.00,true
+P022,Tablero acrílico 22,Oficina,Lenovo,362100.00,277000.00,true
+P023,Freidora de aire 23,Hogar,Totto,346200.00,291000.00,true
+P024,Teclado mecánico 24,Tecnología,Totto,777900.00,552000.00,false
+P025,Banda elástica 25,Deportes,Xiaomi,411400.00,317000.00,false
+P026,Adaptador universal 26,Accesorios,Haceb,387000.00,307000.00,false
+P027,Ventilador 27,Hogar,Totto,800200.00,534000.00,true
+P028,Tablero acrílico 28,Oficina,Haceb,368700.00,296000.00,false
+P029,Hub USB 29,Accesorios,Lenovo,364600.00,252000.00,true
+P030,Adaptador universal 30,Accesorios,Genérico,484200.00,314000.00,true
+P031,Webcam HD 31,Tecnología,Xiaomi,541100.00,394000.00,true
+P032,Cargador USB-C 32,Accesorios,Genérico,359000.00,226000.00,true
+P033,Protector de voltaje 33,Accesorios,Totto,574700.00,471000.00,true
+P034,Escritorio ajustable 34,Oficina,Adidas,275800.00,203000.00,true
+P035,Tapete de yoga 35,Deportes,Totto,333500.00,228000.00,false
+P036,Audífonos Bluetooth 36,Tecnología,Samsung,590300.00,456000.00,true
+P037,Memoria USB 128GB 37,Tecnología,Logitech,32700.00,24000.00,true
+P038,Memoria USB 128GB 38,Tecnología,Kalley,311900.00,243000.00,true
+P039,Banda elástica 39,Deportes,Haceb,82200.00,66000.00,false
+P040,Botella térmica 40,Deportes,Totto,587500.00,380000.00,true
+P041,Mouse inalámbrico 41,Tecnología,Genérico,41700.00,32000.00,true
+P042,Disco SSD 1TB 42,Tecnología,Haceb,312500.00,230000.00,true
+P043,Webcam HD 43,Tecnología,Adidas,846400.00,533000.00,true
+P044,Soporte para celular 44,Accesorios,Logitech,650800.00,514000.00,false
+P045,Cafetera eléctrica 45,Hogar,Samsung,646100.00,475000.00,true
+P046,Ventilador 46,Hogar,Xiaomi,46300.00,31000.00,true
+P047,Audífonos Bluetooth 47,Tecnología,Xiaomi,98800.00,75000.00,true
+P048,Monitor 24 pulgadas 48,Tecnología,Genérico,678600.00,448000.00,false
+P049,Cable HDMI 49,Accesorios,Haceb,177000.00,145000.00,false
+P050,Licuadora 50,Hogar,Kalley,538900.00,399000.00,true
+P051,Tapete de yoga 51,Deportes,Kalley,50000.00,39000.00,true
+P052,Soporte para celular 52,Accesorios,HP,606100.00,370000.00,true
+P053,Lámpara LED 53,Oficina,Adidas,79100.00,56000.00,true
+P054,Silla ergonómica 54,Oficina,Samsung,778400.00,482000.00,true
+P055,Protector de voltaje 55,Accesorios,Adidas,780400.00,541000.00,true
+P056,Base para portátil 56,Tecnología,Adidas,149100.00,97000.00,true
+P057,Lámpara LED 57,Oficina,Adidas,626300.00,424000.00,true
+P058,Hervidor eléctrico 58,Hogar,Haceb,514800.00,374000.00,false
+P059,Cafetera eléctrica 59,Hogar,Samsung,205000.00,129000.00,true
+P060,Cargador USB-C 60,Accesorios,Logitech,180000.00,150000.00,true
+P061,Teclado mecánico 61,Tecnología,Kalley,46000.00,35000.00,true
+P062,Monitor 24 pulgadas 62,Tecnología,Lenovo,493300.00,402000.00,true
+P063,Freidora de aire 63,Hogar,Logitech,64700.00,52000.00,false
+P064,Hervidor eléctrico 64,Hogar,Kalley,600800.00,398000.00,true
+P065,Mouse inalámbrico 65,Tecnología,Xiaomi,537400.00,438000.00,false
+P066,Monitor 24 pulgadas 66,Tecnología,Kalley,232800.00,166000.00,true
+P067,Escritorio ajustable 67,Oficina,Genérico,567600.00,374000.00,false
+P068,Cargador USB-C 68,Accesorios,Samsung,825600.00,528000.00,false
+P069,Cafetera eléctrica 69,Hogar,Lenovo,450300.00,308000.00,true
+P070,Protector de voltaje 70,Accesorios,Logitech,450100.00,327000.00,false
+P071,Memoria USB 128GB 71,Tecnología,Haceb,115700.00,91000.00,true
+P072,Tapete de yoga 72,Deportes,Lenovo,208500.00,134000.00,false
+P073,Hub USB 73,Accesorios,Xiaomi,301100.00,197000.00,true
+P074,Freidora de aire 74,Hogar,Samsung,713800.00,600000.00,true
+P075,Protector de voltaje 75,Accesorios,Lenovo,61200.00,47000.00,true
+P076,Hervidor eléctrico 76,Hogar,Lenovo,143800.00,91000.00,true
+P077,Disco SSD 1TB 77,Tecnología,Samsung,214500.00,146000.00,true
+P078,Archivador metálico 78,Oficina,Adidas,134400.00,100000.00,true
+P079,Escritorio ajustable 79,Oficina,HP,756800.00,483000.00,true
+P080,Lámpara LED 80,Oficina,HP,513000.00,390000.00,true
+P081,Webcam HD 81,Tecnología,Totto,767200.00,534000.00,true
+P082,Hervidor eléctrico 82,Hogar,HP,82700.00,63000.00,true
+P083,Banda elástica 83,Deportes,Totto,526200.00,330000.00,true
+P084,Hervidor eléctrico 84,Hogar,HP,594000.00,389000.00,true
+P085,Cafetera eléctrica 85,Hogar,Lenovo,201200.00,158000.00,true
+P086,Webcam HD 86,Tecnología,Adidas,376100.00,297000.00,true
+P087,Hervidor eléctrico 87,Hogar,Adidas,230200.00,187000.00,true
+P088,Aspiradora 88,Hogar,Kalley,61400.00,45000.00,false
+P089,Freidora de aire 89,Hogar,Genérico,496300.00,337000.00,false
+P090,Adaptador universal 90,Accesorios,Haceb,61300.00,42000.00,true
+P091,Aspiradora 91,Hogar,Genérico,239000.00,202000.00,true
+P092,Protector de voltaje 92,Accesorios,Xiaomi,824100.00,553000.00,true
+P093,Morral deportivo 93,Deportes,Samsung,49600.00,32000.00,true
+P094,Aspiradora 94,Hogar,Logitech,59500.00,38000.00,true
+P095,Morral deportivo 95,Deportes,Xiaomi,638700.00,438000.00,true
+P016,Hub USB 16,Accesorios,HP,165600.00,111000.00,true
+P017,Base para portátil 17,Tecnología,Lenovo,823400.00,600000.00,true
+P018,Soporte para celular 18,Accesorios,Adidas,318400.00,197000.00,true
+P019,Webcam HD 19,Tecnología,Logitech,150500.00,100000.00,true
+P020,Botella térmica 20,Deportes,Xiaomi,621400.00,473000.00,true

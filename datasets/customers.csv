@@ -1,0 +1,1001 @@
+﻿customer_id,full_name,email,city,department,registration_date,customer_segment
+C0001,Andrea Lopez,,Ibagué,Tolima,2025-08-24,Corporativo
+C0002,Natalia Castro,,Cali,Valle del Cauca,2025-05-24,Regular
+C0003,Daniel Perez,,Cali,Valle del Cauca,2024-01-28,Premium
+C0004,Miguel Diaz,,Ibagué,Tolima,2025-01-23,Regular
+C0005,Camila Lopez,,Barranquilla,Atlántico,2025-04-11,Regular
+C0006,Natalia Torres,,Barranquilla,Atlántico,2025-01-11,Premium
+C0007,Valentina Perez,,Manizales,Caldas,2024-10-25,Premium
+C0008,Juan Diaz,,Cali,Valle del Cauca,2025-07-31,Corporativo
+C0009,Felipe Ruiz,,Cali,Valle del Cauca,2025-04-13,Regular
+C0010,Nicolas Diaz,,Cali,Valle del Cauca,2025-09-16,Regular
+C0011,Daniel Martinez,,Medellín,Antioquia,2025-01-07,Regular
+C0012,Mariana Diaz,,Cali,Valle del Cauca,2025-03-24,Regular
+C0013,Sofia Perez,,Cartagena,Bolívar,2024-05-31,Regular
+C0014,Carlos Martinez,,Pereira,Risaralda,2025-05-03,Regular
+C0015,Felipe Perez,felipe.perez15@example.com,Santa Marta,,2024-06-03,Regular
+C0016,Felipe Torres,felipe.torres16@example.com,Bucaramanga,,2025-06-23,Corporativo
+C0017,Sebastian Sanchez,sebastian.sanchez17@example.com,Cali,,2024-11-25,Regular
+C0018,Juan Castro,juan.castro18@example.com,Ibagué,,2025-10-12,Corporativo
+C0019,Diana Lopez,diana.lopez19@example.com,Manizales,,2025-06-14,Regular
+C0020,Valentina Torres,valentina.torres20@example.com,Santa Marta,,2025-05-21,Regular
+C0021,Valentina Diaz,valentina.diaz21@example.com,Bogotá,,2025-01-28,Regular
+C0022,Nicolas Diaz,nicolas.diaz22@example.com,Pereira,,2024-06-07,Premium
+C0023,Natalia Hernandez,natalia.hernandez23@example.com,BOGOTÁ,Tolima,2024-12-24,Regular
+C0024,Laura Rodriguez,laura.rodriguez24@example.com,BOGOTÁ,Risaralda,2024-06-29,Regular
+C0025,Nicolas Rodriguez,nicolas.rodriguez25@example.com,BOGOTÁ,Antioquia,2024-08-29,Regular
+C0026,Sofia Ramirez,sofia.ramirez26@example.com,BOGOTÁ,Atlántico,2024-06-21,Regular
+C0027,Camila Moreno,camila.moreno27@example.com,BOGOTÁ,Bolívar,2025-04-05,Corporativo
+C0028,Andrea Diaz,andrea.diaz28@example.com,BOGOTÁ,Cundinamarca,2024-01-30,Regular
+C0029,Juan Sanchez,juan.sanchez29@example.com,BOGOTÁ,Santander,2024-05-31,Regular
+C0030,Sofia Ruiz,sofia.ruiz30@example.com,BOGOTÁ,Bolívar,2024-02-10,Premium
+C0031,Juan Castro,juan.castro31@example.com,BOGOTÁ,Caldas,2025-04-08,Regular
+C0032,Sebastian Vargas,sebastian.vargas32@example.com,BOGOTÁ,Bolívar,2025-07-23,Regular
+C0033,Nicolas Lopez,nicolas.lopez33@example.com,BOGOTÁ,Santander,2024-10-29,Corporativo
+C0034,Carlos Vargas,carlos.vargas34@example.com,BOGOTÁ,Bolívar,2025-11-12,Regular
+C0035,Laura Vargas,laura.vargas35@example.com,bogotá,Magdalena,2025-06-07,Regular
+C0036,Mateo Castro,mateo.castro36@example.com,bogotá,Valle del Cauca,2024-06-29,Regular
+C0037,Miguel Hernandez,miguel.hernandez37@example.com,bogotá,Atlántico,2024-04-25,Premium
+C0038,Laura Diaz,laura.diaz38@example.com,bogotá,Cundinamarca,2025-08-14,Regular
+C0039,Santiago Gomez,santiago.gomez39@example.com,bogotá,Bolívar,2024-10-06,Regular
+C0040,Carlos Castro,carlos.castro40@example.com,bogotá,Valle del Cauca,2025-08-18,Regular
+C0041,Felipe Perez,felipe.perez41@example.com,bogotá,Bolívar,2024-11-02,Regular
+C0042,Juliana Torres,juliana.torres42@example.com,bogotá,Risaralda,2025-01-17,Corporativo
+C0043,Santiago Sanchez,santiago.sanchez43@example.com,bogotá,Tolima,2025-05-29,Premium
+C0044,Diana Perez,diana.perez44@example.com,bogotá,Magdalena,2024-06-22,Premium
+C0045,Nicolas Castro,nicolas.castro45@example.com,bogotá,Risaralda,2024-04-15,Regular
+C0046,Valentina Ruiz,valentina.ruiz46@example.com,bogotá,Magdalena,2024-06-12,Regular
+C0047,Laura Torres,laura.torres47@example.com,Bogotá,Cundinamarca,2025-08-03,Regular
+C0048,Daniel Sanchez,daniel.sanchez48@example.com,Medellín,Antioquia,2025-09-24,Regular
+C0049,Felipe Gomez,felipe.gomez49@example.com,Barranquilla,Atlántico,2024-04-11,Regular
+C0050,Valentina Ramirez,valentina.ramirez50@example.com,Cartagena,Bolívar,2024-05-04,Regular
+C0051,Camila Hernandez,camila.hernandez51@example.com,Cali,Valle del Cauca,2025-01-30,Regular
+C0052,Sebastian Sanchez,sebastian.sanchez52@example.com,Medellín,Antioquia,2024-01-01,Regular
+C0053,Camila Garcia,camila.garcia53@example.com,Medellín,Antioquia,2025-03-26,Regular
+C0054,Paula Hernandez,paula.hernandez54@example.com,Santa Marta,Magdalena,2025-05-02,Corporativo
+C0055,Diana Martinez,diana.martinez55@example.com,Cali,Valle del Cauca,2024-09-17,Regular
+C0056,Daniel Rodriguez,daniel.rodriguez56@example.com,Medellín,Antioquia,2024-03-05,Regular
+C0057,Andrea Ramirez,andrea.ramirez57@example.com,Pereira,Risaralda,2024-05-30,Premium
+C0058,Andrea Lopez,andrea.lopez58@example.com,Pereira,Risaralda,2024-11-19,Regular
+C0059,Andres Torres,andres.torres59@example.com,Pereira,Risaralda,2025-06-06,Regular
+C0060,Santiago Castro,santiago.castro60@example.com,Medellín,Antioquia,2024-03-01,Regular
+C0061,Andrea Sanchez,andrea.sanchez61@example.com,Medellín,Antioquia,2025-04-02,Regular
+C0062,Paula Rodriguez,paula.rodriguez62@example.com,Manizales,Caldas,2025-04-11,Corporativo
+C0063,Juliana Garcia,juliana.garcia63@example.com,Barranquilla,Atlántico,2025-05-13,Regular
+C0064,Miguel Moreno,miguel.moreno64@example.com,Bucaramanga,Santander,2025-09-07,Premium
+C0065,Mateo Ramirez,mateo.ramirez65@example.com,Barranquilla,Atlántico,2025-06-13,Premium
+C0066,Diana Vargas,diana.vargas66@example.com,Bucaramanga,Santander,2025-11-21,Premium
+C0067,Santiago Diaz,santiago.diaz67@example.com,Cartagena,Bolívar,2024-08-15,Regular
+C0068,Juliana Diaz,juliana.diaz68@example.com,Bucaramanga,Santander,2025-02-02,Corporativo
+C0069,Nicolas Ruiz,nicolas.ruiz69@example.com,Barranquilla,Atlántico,2024-04-25,Regular
+C0070,Mateo Rodriguez,mateo.rodriguez70@example.com,Bucaramanga,Santander,2025-04-30,Premium
+C0071,Paula Lopez,paula.lopez71@example.com,Medellín,Antioquia,2025-09-15,Regular
+C0072,Carlos Vargas,carlos.vargas72@example.com,Cartagena,Bolívar,2025-01-13,Regular
+C0073,Valentina Diaz,valentina.diaz73@example.com,Santa Marta,Magdalena,2025-06-23,Regular
+C0074,Nicolas Gomez,nicolas.gomez74@example.com,Cali,Valle del Cauca,2024-01-25,Premium
+C0075,Sofia Perez,sofia.perez75@example.com,Bucaramanga,Santander,2025-07-28,Regular
+C0076,Nicolas Ramirez,nicolas.ramirez76@example.com,Santa Marta,Magdalena,2025-04-18,Regular
+C0077,Carlos Sanchez,carlos.sanchez77@example.com,Cali,Valle del Cauca,2024-04-27,Regular
+C0078,Diana Gomez,diana.gomez78@example.com,Santa Marta,Magdalena,2025-03-06,Regular
+C0079,Mateo Gomez,mateo.gomez79@example.com,Medellín,Antioquia,2025-05-31,Corporativo
+C0080,Diana Diaz,diana.diaz80@example.com,Pereira,Risaralda,2024-08-19,Premium
+C0081,Diana Perez,diana.perez81@example.com,Bogotá,Cundinamarca,2024-12-29,Premium
+C0082,Andres Diaz,andres.diaz82@example.com,Santa Marta,Magdalena,2025-02-05,Regular
+C0083,Camila Garcia,camila.garcia83@example.com,Barranquilla,Atlántico,2025-11-17,Regular
+C0084,Natalia Castro,natalia.castro84@example.com,Medellín,Antioquia,2025-01-28,Premium
+C0085,Mateo Moreno,mateo.moreno85@example.com,Cartagena,Bolívar,2025-02-17,Regular
+C0086,Sebastian Rodriguez,sebastian.rodriguez86@example.com,Bucaramanga,Santander,2024-04-13,Regular
+C0087,Laura Martinez,laura.martinez87@example.com,Medellín,Antioquia,2024-09-30,Premium
+C0088,Paula Lopez,paula.lopez88@example.com,Cali,Valle del Cauca,2025-11-07,Regular
+C0089,Santiago Vargas,santiago.vargas89@example.com,Cartagena,Bolívar,2025-06-28,Regular
+C0090,Juan Sanchez,juan.sanchez90@example.com,Ibagué,Tolima,2024-04-21,Regular
+C0091,Paula Lopez,paula.lopez91@example.com,Cali,Valle del Cauca,2024-04-16,Corporativo
+C0092,Daniel Diaz,daniel.diaz92@example.com,Bogotá,Cundinamarca,2024-05-12,Regular
+C0093,Nicolas Garcia,nicolas.garcia93@example.com,Medellín,Antioquia,2025-11-04,Corporativo
+C0094,Diana Garcia,diana.garcia94@example.com,Ibagué,Tolima,2025-09-06,Regular
+C0095,Andres Gomez,andres.gomez95@example.com,Barranquilla,Atlántico,2025-04-17,Regular
+C0096,Andres Hernandez,andres.hernandez96@example.com,Cali,Valle del Cauca,2024-10-22,Regular
+C0097,Sofia Torres,sofia.torres97@example.com,Bucaramanga,Santander,2024-08-25,Premium
+C0098,Laura Rodriguez,laura.rodriguez98@example.com,Cartagena,Bolívar,2025-05-18,Regular
+C0099,Felipe Lopez,felipe.lopez99@example.com,Cali,Valle del Cauca,2024-12-22,Regular
+C0100,Paula Moreno,paula.moreno100@example.com,Pereira,Risaralda,2024-05-24,Regular
+C0101,Felipe Hernandez,felipe.hernandez101@example.com,Bogotá,Cundinamarca,2024-11-10,Regular
+C0102,Diana Torres,diana.torres102@example.com,Manizales,Caldas,2024-10-20,Regular
+C0103,Andres Gomez,andres.gomez103@example.com,Ibagué,Tolima,2025-04-12,Regular
+C0104,Natalia Perez,natalia.perez104@example.com,Manizales,Caldas,2025-05-29,Regular
+C0105,Mateo Torres,mateo.torres105@example.com,Barranquilla,Atlántico,2025-07-29,Premium
+C0106,Diana Gomez,diana.gomez106@example.com,Medellín,Antioquia,2025-03-28,Premium
+C0107,Mateo Diaz,mateo.diaz107@example.com,Santa Marta,Magdalena,2025-03-28,Premium
+C0108,Nicolas Perez,nicolas.perez108@example.com,Medellín,Antioquia,2024-04-16,Regular
+C0109,Andres Garcia,andres.garcia109@example.com,Pereira,Risaralda,2025-02-27,Regular
+C0110,Nicolas Hernandez,nicolas.hernandez110@example.com,Manizales,Caldas,2024-01-19,Regular
+C0111,Andrea Garcia,andrea.garcia111@example.com,Ibagué,Tolima,2024-12-16,Regular
+C0112,Paula Ruiz,paula.ruiz112@example.com,Bogotá,Cundinamarca,2024-01-24,Regular
+C0113,Diana Castro,diana.castro113@example.com,Cali,Valle del Cauca,2024-11-23,Regular
+C0114,Diana Vargas,diana.vargas114@example.com,Manizales,Caldas,2024-04-13,Premium
+C0115,Paula Lopez,paula.lopez115@example.com,Pereira,Risaralda,2024-10-10,Regular
+C0116,Juan Garcia,juan.garcia116@example.com,Bucaramanga,Santander,2025-08-31,Regular
+C0117,Andres Diaz,andres.diaz117@example.com,Bogotá,Cundinamarca,2025-11-12,Regular
+C0118,Felipe Moreno,felipe.moreno118@example.com,Barranquilla,Atlántico,2024-07-04,Premium
+C0119,Camila Hernandez,camila.hernandez119@example.com,Manizales,Caldas,2024-03-25,Premium
+C0120,Carlos Moreno,carlos.moreno120@example.com,Cartagena,Bolívar,2024-12-01,Regular
+C0121,Mariana Ramirez,mariana.ramirez121@example.com,Bogotá,Cundinamarca,2024-05-15,Regular
+C0122,Felipe Gomez,felipe.gomez122@example.com,Ibagué,Tolima,2025-02-23,Regular
+C0123,Sebastian Ruiz,sebastian.ruiz123@example.com,Santa Marta,Magdalena,2024-05-27,Premium
+C0124,Camila Rodriguez,camila.rodriguez124@example.com,Bucaramanga,Santander,2025-04-09,Regular
+C0125,Sebastian Moreno,sebastian.moreno125@example.com,Bucaramanga,Santander,2025-08-29,Regular
+C0126,Nicolas Rodriguez,nicolas.rodriguez126@example.com,Bogotá,Cundinamarca,2025-06-03,Regular
+C0127,Daniel Castro,daniel.castro127@example.com,Manizales,Caldas,2025-11-24,Premium
+C0128,Diana Sanchez,diana.sanchez128@example.com,Cali,Valle del Cauca,2025-10-24,Regular
+C0129,Mariana Ramirez,mariana.ramirez129@example.com,Medellín,Antioquia,2024-06-18,Regular
+C0130,Daniel Moreno,daniel.moreno130@example.com,Pereira,Risaralda,2025-01-10,Regular
+C0131,Sebastian Gomez,sebastian.gomez131@example.com,Cartagena,Bolívar,2024-03-23,Regular
+C0132,Paula Hernandez,paula.hernandez132@example.com,Bucaramanga,Santander,2025-11-10,Regular
+C0133,Miguel Lopez,miguel.lopez133@example.com,Manizales,Caldas,2025-10-11,Regular
+C0134,Juan Castro,juan.castro134@example.com,Santa Marta,Magdalena,2025-10-20,Premium
+C0135,Valentina Vargas,valentina.vargas135@example.com,Ibagué,Tolima,2024-09-11,Regular
+C0136,Natalia Moreno,natalia.moreno136@example.com,Pereira,Risaralda,2024-09-22,Corporativo
+C0137,Diana Lopez,diana.lopez137@example.com,Cali,Valle del Cauca,2025-08-07,Regular
+C0138,Mariana Torres,mariana.torres138@example.com,Bogotá,Cundinamarca,2024-12-14,Regular
+C0139,Camila Torres,camila.torres139@example.com,Cartagena,Bolívar,2025-07-14,Regular
+C0140,Juliana Garcia,juliana.garcia140@example.com,Bucaramanga,Santander,2024-09-10,Regular
+C0141,Daniel Gomez,daniel.gomez141@example.com,Cartagena,Bolívar,2024-09-30,Regular
+C0142,Juan Lopez,juan.lopez142@example.com,Barranquilla,Atlántico,2025-08-24,Regular
+C0143,Miguel Gomez,miguel.gomez143@example.com,Medellín,Antioquia,2024-09-01,Regular
+C0144,Miguel Ruiz,miguel.ruiz144@example.com,Bucaramanga,Santander,2025-10-27,Regular
+C0145,Laura Perez,laura.perez145@example.com,Bogotá,Cundinamarca,2025-04-18,Premium
+C0146,Paula Perez,paula.perez146@example.com,Bogotá,Cundinamarca,2025-02-04,Regular
+C0147,Daniel Diaz,daniel.diaz147@example.com,Santa Marta,Magdalena,2024-05-11,Regular
+C0148,Valentina Vargas,valentina.vargas148@example.com,Bogotá,Cundinamarca,2024-09-12,Regular
+C0149,Andres Sanchez,andres.sanchez149@example.com,Bucaramanga,Santander,2024-08-23,Regular
+C0150,Sebastian Diaz,sebastian.diaz150@example.com,Ibagué,Tolima,2024-07-11,Regular
+C0151,Andrea Moreno,andrea.moreno151@example.com,Barranquilla,Atlántico,2024-06-23,Regular
+C0152,Felipe Martinez,felipe.martinez152@example.com,Pereira,Risaralda,2024-09-06,Regular
+C0153,Mateo Sanchez,mateo.sanchez153@example.com,Bucaramanga,Santander,2025-09-28,Regular
+C0154,Felipe Martinez,felipe.martinez154@example.com,Bogotá,Cundinamarca,2025-10-06,Regular
+C0155,Paula Castro,paula.castro155@example.com,Cartagena,Bolívar,2025-10-21,Regular
+C0156,Miguel Garcia,miguel.garcia156@example.com,Bogotá,Cundinamarca,2025-05-25,Regular
+C0157,Paula Ramirez,paula.ramirez157@example.com,Cartagena,Bolívar,2025-11-28,Regular
+C0158,Laura Ruiz,laura.ruiz158@example.com,Manizales,Caldas,2024-01-27,Regular
+C0159,Valentina Vargas,valentina.vargas159@example.com,Bogotá,Cundinamarca,2024-10-07,Premium
+C0160,Sofia Hernandez,sofia.hernandez160@example.com,Bogotá,Cundinamarca,2024-05-17,Regular
+C0161,Santiago Vargas,santiago.vargas161@example.com,Cartagena,Bolívar,2025-08-06,Regular
+C0162,Diana Torres,diana.torres162@example.com,Cali,Valle del Cauca,2025-03-23,Premium
+C0163,Juan Sanchez,juan.sanchez163@example.com,Bucaramanga,Santander,2025-02-14,Regular
+C0164,Andrea Martinez,andrea.martinez164@example.com,Pereira,Risaralda,2024-08-14,Regular
+C0165,Diana Diaz,diana.diaz165@example.com,Pereira,Risaralda,2025-02-05,Regular
+C0166,Camila Perez,camila.perez166@example.com,Bucaramanga,Santander,2025-08-16,Premium
+C0167,Sofia Ramirez,sofia.ramirez167@example.com,Bucaramanga,Santander,2024-08-14,Regular
+C0168,Juliana Diaz,juliana.diaz168@example.com,Bogotá,Cundinamarca,2025-10-03,Corporativo
+C0169,Juliana Martinez,juliana.martinez169@example.com,Cartagena,Bolívar,2024-04-24,Regular
+C0170,Laura Ramirez,laura.ramirez170@example.com,Bucaramanga,Santander,2024-10-18,Regular
+C0171,Valentina Castro,valentina.castro171@example.com,Manizales,Caldas,2024-07-05,Regular
+C0172,Mariana Castro,mariana.castro172@example.com,Manizales,Caldas,2025-03-03,Regular
+C0173,Laura Moreno,laura.moreno173@example.com,Cali,Valle del Cauca,2024-08-10,Regular
+C0174,Laura Hernandez,laura.hernandez174@example.com,Santa Marta,Magdalena,2025-09-19,Premium
+C0175,Juliana Rodriguez,juliana.rodriguez175@example.com,Pereira,Risaralda,2024-06-13,Premium
+C0176,Mariana Hernandez,mariana.hernandez176@example.com,Pereira,Risaralda,2024-12-17,Regular
+C0177,Carlos Torres,carlos.torres177@example.com,Cali,Valle del Cauca,2025-01-27,Regular
+C0178,Carlos Castro,carlos.castro178@example.com,Barranquilla,Atlántico,2024-08-21,Regular
+C0179,Felipe Perez,felipe.perez179@example.com,Manizales,Caldas,2025-09-26,Regular
+C0180,Natalia Vargas,natalia.vargas180@example.com,Cartagena,Bolívar,2024-02-01,Premium
+C0181,Valentina Torres,valentina.torres181@example.com,Santa Marta,Magdalena,2024-01-27,Regular
+C0182,Juan Vargas,juan.vargas182@example.com,Medellín,Antioquia,2024-01-11,Regular
+C0183,Paula Moreno,paula.moreno183@example.com,Bogotá,Cundinamarca,2024-06-19,Corporativo
+C0184,Sebastian Lopez,sebastian.lopez184@example.com,Medellín,Antioquia,2025-04-11,Premium
+C0185,Daniel Hernandez,daniel.hernandez185@example.com,Santa Marta,Magdalena,2024-03-23,Regular
+C0186,Miguel Martinez,miguel.martinez186@example.com,Santa Marta,Magdalena,2025-06-19,Regular
+C0187,Natalia Hernandez,natalia.hernandez187@example.com,Santa Marta,Magdalena,2025-01-12,Regular
+C0188,Santiago Garcia,santiago.garcia188@example.com,Medellín,Antioquia,2024-01-24,Premium
+C0189,Andrea Rodriguez,andrea.rodriguez189@example.com,Cali,Valle del Cauca,2024-08-25,Regular
+C0190,Daniel Castro,daniel.castro190@example.com,Cali,Valle del Cauca,2024-01-11,Regular
+C0191,Camila Vargas,camila.vargas191@example.com,Ibagué,Tolima,2024-03-13,Premium
+C0192,Juan Martinez,juan.martinez192@example.com,Pereira,Risaralda,2024-12-31,Premium
+C0193,Santiago Rodriguez,santiago.rodriguez193@example.com,Bucaramanga,Santander,2024-01-23,Regular
+C0194,Sebastian Torres,sebastian.torres194@example.com,Ibagué,Tolima,2025-06-26,Regular
+C0195,Valentina Gomez,valentina.gomez195@example.com,Manizales,Caldas,2025-01-08,Regular
+C0196,Miguel Castro,miguel.castro196@example.com,Pereira,Risaralda,2025-08-13,Regular
+C0197,Diana Vargas,diana.vargas197@example.com,Cali,Valle del Cauca,2025-07-09,Corporativo
+C0198,Sofia Castro,sofia.castro198@example.com,Santa Marta,Magdalena,2024-04-15,Regular
+C0199,Andres Sanchez,andres.sanchez199@example.com,Manizales,Caldas,2025-06-10,Regular
+C0200,Felipe Rodriguez,felipe.rodriguez200@example.com,Cartagena,Bolívar,2024-04-26,Regular
+C0201,Laura Moreno,laura.moreno201@example.com,Bogotá,Cundinamarca,2025-02-06,Regular
+C0202,Valentina Moreno,valentina.moreno202@example.com,Santa Marta,Magdalena,2025-10-28,Corporativo
+C0203,Andres Rodriguez,andres.rodriguez203@example.com,Cartagena,Bolívar,2024-05-06,Regular
+C0204,Felipe Diaz,felipe.diaz204@example.com,Barranquilla,Atlántico,2025-03-25,Corporativo
+C0205,Santiago Diaz,santiago.diaz205@example.com,Pereira,Risaralda,2024-09-10,Premium
+C0206,Natalia Vargas,natalia.vargas206@example.com,Cali,Valle del Cauca,2025-09-01,Corporativo
+C0207,Natalia Vargas,natalia.vargas207@example.com,Manizales,Caldas,2024-07-15,Regular
+C0208,Camila Martinez,camila.martinez208@example.com,Ibagué,Tolima,2024-09-02,Regular
+C0209,Natalia Diaz,natalia.diaz209@example.com,Bogotá,Cundinamarca,2024-10-08,Regular
+C0210,Mariana Ramirez,mariana.ramirez210@example.com,Bogotá,Cundinamarca,2025-04-07,Regular
+C0211,Valentina Perez,valentina.perez211@example.com,Bucaramanga,Santander,2024-05-29,Regular
+C0212,Felipe Castro,felipe.castro212@example.com,Bucaramanga,Santander,2024-06-28,Premium
+C0213,Sofia Moreno,sofia.moreno213@example.com,Pereira,Risaralda,2025-09-20,Regular
+C0214,Mateo Rodriguez,mateo.rodriguez214@example.com,Cartagena,Bolívar,2024-04-24,Regular
+C0215,Sebastian Lopez,sebastian.lopez215@example.com,Bogotá,Cundinamarca,2024-01-24,Premium
+C0216,Felipe Torres,felipe.torres216@example.com,Bucaramanga,Santander,2025-04-07,Regular
+C0217,Andrea Vargas,andrea.vargas217@example.com,Pereira,Risaralda,2025-03-26,Regular
+C0218,Laura Ramirez,laura.ramirez218@example.com,Santa Marta,Magdalena,2024-05-05,Regular
+C0219,Juan Ruiz,juan.ruiz219@example.com,Bogotá,Cundinamarca,2025-09-14,Premium
+C0220,Mariana Ruiz,mariana.ruiz220@example.com,Cali,Valle del Cauca,2024-10-29,Regular
+C0221,Sofia Torres,sofia.torres221@example.com,Medellín,Antioquia,2025-08-25,Regular
+C0222,Camila Garcia,camila.garcia222@example.com,Cartagena,Bolívar,2024-04-08,Premium
+C0223,Juan Ruiz,juan.ruiz223@example.com,Bucaramanga,Santander,2024-11-03,Regular
+C0224,Daniel Ramirez,daniel.ramirez224@example.com,Ibagué,Tolima,2025-03-07,Regular
+C0225,Mariana Diaz,mariana.diaz225@example.com,Cartagena,Bolívar,2024-10-30,Corporativo
+C0226,Sofia Sanchez,sofia.sanchez226@example.com,Manizales,Caldas,2024-07-04,Regular
+C0227,Juan Lopez,juan.lopez227@example.com,Ibagué,Tolima,2025-01-30,Regular
+C0228,Valentina Perez,valentina.perez228@example.com,Medellín,Antioquia,2024-12-24,Regular
+C0229,Camila Torres,camila.torres229@example.com,Pereira,Risaralda,2024-03-17,Regular
+C0230,Camila Ramirez,camila.ramirez230@example.com,Pereira,Risaralda,2025-10-10,Regular
+C0231,Carlos Ruiz,carlos.ruiz231@example.com,Pereira,Risaralda,2025-02-11,Premium
+C0232,Felipe Gomez,felipe.gomez232@example.com,Santa Marta,Magdalena,2024-11-14,Regular
+C0233,Mariana Rodriguez,mariana.rodriguez233@example.com,Manizales,Caldas,2025-04-23,Regular
+C0234,Miguel Ramirez,miguel.ramirez234@example.com,Barranquilla,Atlántico,2024-04-24,Premium
+C0235,Valentina Hernandez,valentina.hernandez235@example.com,Bucaramanga,Santander,2024-05-16,Premium
+C0236,Miguel Garcia,miguel.garcia236@example.com,Santa Marta,Magdalena,2025-07-16,Regular
+C0237,Sofia Vargas,sofia.vargas237@example.com,Barranquilla,Atlántico,2025-08-25,Regular
+C0238,Felipe Torres,felipe.torres238@example.com,Pereira,Risaralda,2025-11-05,Regular
+C0239,Mariana Sanchez,mariana.sanchez239@example.com,Manizales,Caldas,2025-02-20,Premium
+C0240,Camila Gomez,camila.gomez240@example.com,Medellín,Antioquia,2024-07-14,Premium
+C0241,Sofia Perez,sofia.perez241@example.com,Cali,Valle del Cauca,2025-04-24,Regular
+C0242,Carlos Martinez,carlos.martinez242@example.com,Santa Marta,Magdalena,2025-11-03,Regular
+C0243,Felipe Garcia,felipe.garcia243@example.com,Bogotá,Cundinamarca,2025-08-18,Corporativo
+C0244,Laura Rodriguez,laura.rodriguez244@example.com,Barranquilla,Atlántico,2025-08-15,Corporativo
+C0245,Daniel Hernandez,daniel.hernandez245@example.com,Cartagena,Bolívar,2025-09-17,Regular
+C0246,Sebastian Hernandez,sebastian.hernandez246@example.com,Cali,Valle del Cauca,2024-11-22,Regular
+C0247,Valentina Lopez,valentina.lopez247@example.com,Manizales,Caldas,2024-02-05,Regular
+C0248,Diana Ruiz,diana.ruiz248@example.com,Bucaramanga,Santander,2024-02-26,Regular
+C0249,Mariana Ruiz,mariana.ruiz249@example.com,Cali,Valle del Cauca,2025-06-20,Regular
+C0250,Andres Hernandez,andres.hernandez250@example.com,Medellín,Antioquia,2024-04-21,Regular
+C0251,Sebastian Moreno,sebastian.moreno251@example.com,Medellín,Antioquia,2025-09-30,Regular
+C0252,Andres Castro,andres.castro252@example.com,Santa Marta,Magdalena,2024-12-13,Regular
+C0253,Juan Diaz,juan.diaz253@example.com,Barranquilla,Atlántico,2025-10-20,Regular
+C0254,Andres Sanchez,andres.sanchez254@example.com,Manizales,Caldas,2024-10-25,Regular
+C0255,Felipe Ruiz,felipe.ruiz255@example.com,Bucaramanga,Santander,2025-07-29,Regular
+C0256,Miguel Ruiz,miguel.ruiz256@example.com,Ibagué,Tolima,2025-10-09,Regular
+C0257,Mateo Perez,mateo.perez257@example.com,Medellín,Antioquia,2025-07-13,Regular
+C0258,Natalia Torres,natalia.torres258@example.com,Bogotá,Cundinamarca,2025-04-26,Premium
+C0259,Sofia Martinez,sofia.martinez259@example.com,Bucaramanga,Santander,2024-03-16,Regular
+C0260,Mariana Ruiz,mariana.ruiz260@example.com,Bogotá,Cundinamarca,2025-08-25,Regular
+C0261,Andres Gomez,andres.gomez261@example.com,Bucaramanga,Santander,2025-01-16,Corporativo
+C0262,Felipe Moreno,felipe.moreno262@example.com,Cartagena,Bolívar,2025-05-06,Regular
+C0263,Nicolas Torres,nicolas.torres263@example.com,Bogotá,Cundinamarca,2024-06-12,Premium
+C0264,Nicolas Sanchez,nicolas.sanchez264@example.com,Pereira,Risaralda,2025-03-07,Regular
+C0265,Andres Vargas,andres.vargas265@example.com,Manizales,Caldas,2024-07-20,Regular
+C0266,Sofia Lopez,sofia.lopez266@example.com,Cali,Valle del Cauca,2024-07-04,Corporativo
+C0267,Diana Martinez,diana.martinez267@example.com,Ibagué,Tolima,2024-12-17,Regular
+C0268,Diana Castro,diana.castro268@example.com,Medellín,Antioquia,2024-10-08,Corporativo
+C0269,Andres Moreno,andres.moreno269@example.com,Pereira,Risaralda,2024-04-09,Regular
+C0270,Natalia Moreno,natalia.moreno270@example.com,Cali,Valle del Cauca,2025-05-19,Regular
+C0271,Carlos Vargas,carlos.vargas271@example.com,Cartagena,Bolívar,2025-10-17,Corporativo
+C0272,Santiago Diaz,santiago.diaz272@example.com,Cartagena,Bolívar,2025-02-21,Premium
+C0273,Juliana Torres,juliana.torres273@example.com,Manizales,Caldas,2024-01-02,Regular
+C0274,Valentina Vargas,valentina.vargas274@example.com,Barranquilla,Atlántico,2024-07-30,Regular
+C0275,Daniel Ramirez,daniel.ramirez275@example.com,Bogotá,Cundinamarca,2024-08-18,Regular
+C0276,Daniel Ruiz,daniel.ruiz276@example.com,Ibagué,Tolima,2025-08-30,Regular
+C0277,Santiago Torres,santiago.torres277@example.com,Manizales,Caldas,2024-11-06,Corporativo
+C0278,Juliana Lopez,juliana.lopez278@example.com,Pereira,Risaralda,2025-03-26,Regular
+C0279,Miguel Moreno,miguel.moreno279@example.com,Medellín,Antioquia,2024-12-22,Regular
+C0280,Natalia Moreno,natalia.moreno280@example.com,Ibagué,Tolima,2024-08-01,Regular
+C0281,Juan Moreno,juan.moreno281@example.com,Manizales,Caldas,2025-07-23,Regular
+C0282,Miguel Castro,miguel.castro282@example.com,Ibagué,Tolima,2024-09-04,Regular
+C0283,Andrea Torres,andrea.torres283@example.com,Cartagena,Bolívar,2024-05-05,Premium
+C0284,Miguel Moreno,miguel.moreno284@example.com,Bucaramanga,Santander,2024-03-22,Regular
+C0285,Mariana Rodriguez,mariana.rodriguez285@example.com,Bucaramanga,Santander,2024-10-01,Premium
+C0286,Laura Sanchez,laura.sanchez286@example.com,Pereira,Risaralda,2024-10-04,Corporativo
+C0287,Sebastian Perez,sebastian.perez287@example.com,Pereira,Risaralda,2024-02-24,Premium
+C0288,Paula Martinez,paula.martinez288@example.com,Medellín,Antioquia,2024-10-10,Regular
+C0289,Sofia Rodriguez,sofia.rodriguez289@example.com,Barranquilla,Atlántico,2024-03-01,Regular
+C0290,Andres Garcia,andres.garcia290@example.com,Bogotá,Cundinamarca,2024-04-05,Premium
+C0291,Mariana Gomez,mariana.gomez291@example.com,Cartagena,Bolívar,2025-08-31,Regular
+C0292,Mariana Gomez,mariana.gomez292@example.com,Ibagué,Tolima,2024-02-17,Regular
+C0293,Felipe Garcia,felipe.garcia293@example.com,Cali,Valle del Cauca,2025-02-05,Premium
+C0294,Valentina Martinez,valentina.martinez294@example.com,Bogotá,Cundinamarca,2025-06-19,Regular
+C0295,Juan Perez,juan.perez295@example.com,Manizales,Caldas,2025-11-23,Regular
+C0296,Natalia Garcia,natalia.garcia296@example.com,Bucaramanga,Santander,2024-06-17,Regular
+C0297,Mariana Torres,mariana.torres297@example.com,Barranquilla,Atlántico,2024-06-09,Premium
+C0298,Diana Lopez,diana.lopez298@example.com,Cartagena,Bolívar,2025-01-29,Premium
+C0299,Laura Martinez,laura.martinez299@example.com,Medellín,Antioquia,2025-11-09,Regular
+C0300,Carlos Moreno,carlos.moreno300@example.com,Bucaramanga,Santander,2024-08-06,Regular
+C0301,Sebastian Vargas,sebastian.vargas301@example.com,Bogotá,Cundinamarca,2024-04-09,Regular
+C0302,Miguel Martinez,miguel.martinez302@example.com,Cartagena,Bolívar,2024-08-20,Premium
+C0303,Sebastian Moreno,sebastian.moreno303@example.com,Barranquilla,Atlántico,2025-04-19,Regular
+C0304,Sofia Ramirez,sofia.ramirez304@example.com,Santa Marta,Magdalena,2025-01-14,Regular
+C0305,Andrea Torres,andrea.torres305@example.com,Barranquilla,Atlántico,2025-08-14,Regular
+C0306,Carlos Sanchez,carlos.sanchez306@example.com,Ibagué,Tolima,2024-09-27,Regular
+C0307,Sebastian Ruiz,sebastian.ruiz307@example.com,Santa Marta,Magdalena,2025-06-08,Premium
+C0308,Carlos Martinez,carlos.martinez308@example.com,Bucaramanga,Santander,2024-05-19,Regular
+C0309,Diana Martinez,diana.martinez309@example.com,Cartagena,Bolívar,2024-11-04,Regular
+C0310,Sebastian Perez,sebastian.perez310@example.com,Santa Marta,Magdalena,2025-10-14,Regular
+C0311,Diana Diaz,diana.diaz311@example.com,Bucaramanga,Santander,2024-08-05,Regular
+C0312,Santiago Moreno,santiago.moreno312@example.com,Bucaramanga,Santander,2025-09-30,Regular
+C0313,Santiago Rodriguez,santiago.rodriguez313@example.com,Medellín,Antioquia,2024-09-30,Regular
+C0314,Laura Sanchez,laura.sanchez314@example.com,Barranquilla,Atlántico,2025-05-24,Premium
+C0315,Daniel Vargas,daniel.vargas315@example.com,Cali,Valle del Cauca,2025-11-12,Corporativo
+C0316,Mariana Ruiz,mariana.ruiz316@example.com,Pereira,Risaralda,2025-11-20,Regular
+C0317,Natalia Martinez,natalia.martinez317@example.com,Cali,Valle del Cauca,2024-01-17,Corporativo
+C0318,Natalia Garcia,natalia.garcia318@example.com,Santa Marta,Magdalena,2025-03-11,Regular
+C0319,Felipe Ramirez,felipe.ramirez319@example.com,Pereira,Risaralda,2025-06-08,Premium
+C0320,Felipe Ramirez,felipe.ramirez320@example.com,Pereira,Risaralda,2024-01-10,Regular
+C0321,Valentina Vargas,valentina.vargas321@example.com,Cali,Valle del Cauca,2024-12-16,Corporativo
+C0322,Laura Castro,laura.castro322@example.com,Cartagena,Bolívar,2025-09-06,Regular
+C0323,Daniel Gomez,daniel.gomez323@example.com,Santa Marta,Magdalena,2025-06-21,Regular
+C0324,Diana Ruiz,diana.ruiz324@example.com,Barranquilla,Atlántico,2025-02-12,Corporativo
+C0325,Camila Diaz,camila.diaz325@example.com,Manizales,Caldas,2024-03-25,Regular
+C0326,Felipe Vargas,felipe.vargas326@example.com,Medellín,Antioquia,2025-03-05,Regular
+C0327,Laura Castro,laura.castro327@example.com,Ibagué,Tolima,2025-04-20,Regular
+C0328,Carlos Castro,carlos.castro328@example.com,Medellín,Antioquia,2025-08-18,Regular
+C0329,Mateo Lopez,mateo.lopez329@example.com,Santa Marta,Magdalena,2025-08-01,Regular
+C0330,Santiago Moreno,santiago.moreno330@example.com,Cartagena,Bolívar,2025-04-29,Regular
+C0331,Diana Lopez,diana.lopez331@example.com,Santa Marta,Magdalena,2024-10-08,Premium
+C0332,Camila Rodriguez,camila.rodriguez332@example.com,Cali,Valle del Cauca,2025-06-01,Regular
+C0333,Santiago Rodriguez,santiago.rodriguez333@example.com,Medellín,Antioquia,2025-07-11,Regular
+C0334,Juliana Lopez,juliana.lopez334@example.com,Cartagena,Bolívar,2025-05-16,Regular
+C0335,Camila Perez,camila.perez335@example.com,Manizales,Caldas,2024-09-03,Regular
+C0336,Miguel Hernandez,miguel.hernandez336@example.com,Cartagena,Bolívar,2025-04-06,Corporativo
+C0337,Paula Diaz,paula.diaz337@example.com,Bogotá,Cundinamarca,2025-07-24,Premium
+C0338,Nicolas Diaz,nicolas.diaz338@example.com,Bucaramanga,Santander,2024-12-14,Regular
+C0339,Mariana Torres,mariana.torres339@example.com,Pereira,Risaralda,2024-05-01,Regular
+C0340,Natalia Rodriguez,natalia.rodriguez340@example.com,Medellín,Antioquia,2025-11-17,Regular
+C0341,Andrea Ruiz,andrea.ruiz341@example.com,Cartagena,Bolívar,2025-06-06,Regular
+C0342,Mariana Sanchez,mariana.sanchez342@example.com,Pereira,Risaralda,2024-04-25,Corporativo
+C0343,Paula Diaz,paula.diaz343@example.com,Ibagué,Tolima,2025-11-11,Regular
+C0344,Juliana Vargas,juliana.vargas344@example.com,Bucaramanga,Santander,2024-07-26,Regular
+C0345,Daniel Rodriguez,daniel.rodriguez345@example.com,Bogotá,Cundinamarca,2024-06-09,Premium
+C0346,Santiago Martinez,santiago.martinez346@example.com,Cali,Valle del Cauca,2025-06-22,Premium
+C0347,Andres Vargas,andres.vargas347@example.com,Manizales,Caldas,2025-04-05,Regular
+C0348,Mariana Sanchez,mariana.sanchez348@example.com,Barranquilla,Atlántico,2025-05-19,Regular
+C0349,Juan Torres,juan.torres349@example.com,Medellín,Antioquia,2025-03-07,Regular
+C0350,Paula Martinez,paula.martinez350@example.com,Cali,Valle del Cauca,2024-11-24,Regular
+C0351,Felipe Gomez,felipe.gomez351@example.com,Bogotá,Cundinamarca,2024-02-12,Regular
+C0352,Natalia Ramirez,natalia.ramirez352@example.com,Santa Marta,Magdalena,2024-04-02,Corporativo
+C0353,Daniel Vargas,daniel.vargas353@example.com,Bogotá,Cundinamarca,2025-09-28,Regular
+C0354,Juliana Rodriguez,juliana.rodriguez354@example.com,Bucaramanga,Santander,2024-02-20,Regular
+C0355,Diana Castro,diana.castro355@example.com,Pereira,Risaralda,2024-12-17,Corporativo
+C0356,Santiago Lopez,santiago.lopez356@example.com,Medellín,Antioquia,2024-05-09,Regular
+C0357,Felipe Diaz,felipe.diaz357@example.com,Cali,Valle del Cauca,2025-06-17,Regular
+C0358,Santiago Hernandez,santiago.hernandez358@example.com,Pereira,Risaralda,2024-08-17,Premium
+C0359,Juliana Vargas,juliana.vargas359@example.com,Cali,Valle del Cauca,2024-04-19,Regular
+C0360,Sofia Rodriguez,sofia.rodriguez360@example.com,Ibagué,Tolima,2025-07-11,Regular
+C0361,Paula Hernandez,paula.hernandez361@example.com,Cali,Valle del Cauca,2025-05-02,Regular
+C0362,Sebastian Rodriguez,sebastian.rodriguez362@example.com,Santa Marta,Magdalena,2025-04-23,Regular
+C0363,Sofia Sanchez,sofia.sanchez363@example.com,Pereira,Risaralda,2024-08-25,Regular
+C0364,Camila Ruiz,camila.ruiz364@example.com,Bucaramanga,Santander,2024-03-26,Premium
+C0365,Juliana Gomez,juliana.gomez365@example.com,Cali,Valle del Cauca,2024-05-28,Regular
+C0366,Laura Castro,laura.castro366@example.com,Ibagué,Tolima,2024-01-20,Regular
+C0367,Felipe Vargas,felipe.vargas367@example.com,Manizales,Caldas,2024-01-19,Regular
+C0368,Sebastian Ramirez,sebastian.ramirez368@example.com,Ibagué,Tolima,2024-07-08,Regular
+C0369,Andres Vargas,andres.vargas369@example.com,Barranquilla,Atlántico,2025-04-06,Corporativo
+C0370,Nicolas Rodriguez,nicolas.rodriguez370@example.com,Cartagena,Bolívar,2024-04-24,Corporativo
+C0371,Camila Castro,camila.castro371@example.com,Cartagena,Bolívar,2024-12-01,Regular
+C0372,Andrea Garcia,andrea.garcia372@example.com,Ibagué,Tolima,2025-06-30,Regular
+C0373,Andrea Ruiz,andrea.ruiz373@example.com,Barranquilla,Atlántico,2024-09-03,Regular
+C0374,Miguel Hernandez,miguel.hernandez374@example.com,Manizales,Caldas,2025-06-22,Regular
+C0375,Mateo Martinez,mateo.martinez375@example.com,Ibagué,Tolima,2025-04-21,Regular
+C0376,Camila Castro,camila.castro376@example.com,Ibagué,Tolima,2024-11-22,Regular
+C0377,Juan Sanchez,juan.sanchez377@example.com,Medellín,Antioquia,2024-10-30,Premium
+C0378,Natalia Torres,natalia.torres378@example.com,Bucaramanga,Santander,2025-10-11,Regular
+C0379,Laura Perez,laura.perez379@example.com,Bucaramanga,Santander,2024-07-03,Regular
+C0380,Diana Ruiz,diana.ruiz380@example.com,Manizales,Caldas,2024-09-01,Regular
+C0381,Valentina Martinez,valentina.martinez381@example.com,Barranquilla,Atlántico,2025-10-20,Regular
+C0382,Natalia Lopez,natalia.lopez382@example.com,Bogotá,Cundinamarca,2024-05-02,Regular
+C0383,Nicolas Diaz,nicolas.diaz383@example.com,Bucaramanga,Santander,2025-07-01,Premium
+C0384,Carlos Ruiz,carlos.ruiz384@example.com,Bucaramanga,Santander,2025-11-11,Premium
+C0385,Camila Perez,camila.perez385@example.com,Santa Marta,Magdalena,2025-02-21,Regular
+C0386,Miguel Garcia,miguel.garcia386@example.com,Barranquilla,Atlántico,2024-05-01,Regular
+C0387,Nicolas Garcia,nicolas.garcia387@example.com,Barranquilla,Atlántico,2025-03-19,Regular
+C0388,Mariana Castro,mariana.castro388@example.com,Medellín,Antioquia,2024-09-06,Regular
+C0389,Juliana Rodriguez,juliana.rodriguez389@example.com,Medellín,Antioquia,2024-09-13,Regular
+C0390,Sebastian Moreno,sebastian.moreno390@example.com,Cartagena,Bolívar,2024-03-19,Regular
+C0391,Valentina Torres,valentina.torres391@example.com,Santa Marta,Magdalena,2024-03-27,Regular
+C0392,Miguel Lopez,miguel.lopez392@example.com,Cartagena,Bolívar,2025-07-10,Regular
+C0393,Miguel Perez,miguel.perez393@example.com,Cali,Valle del Cauca,2025-10-02,Premium
+C0394,Juliana Perez,juliana.perez394@example.com,Bogotá,Cundinamarca,2025-07-02,Regular
+C0395,Miguel Castro,miguel.castro395@example.com,Bogotá,Cundinamarca,2024-01-27,Regular
+C0396,Sofia Martinez,sofia.martinez396@example.com,Barranquilla,Atlántico,2025-11-24,Regular
+C0397,Carlos Rodriguez,carlos.rodriguez397@example.com,Bogotá,Cundinamarca,2024-07-23,Corporativo
+C0398,Carlos Garcia,carlos.garcia398@example.com,Ibagué,Tolima,2025-04-24,Regular
+C0399,Nicolas Ruiz,nicolas.ruiz399@example.com,Santa Marta,Magdalena,2025-04-22,Regular
+C0400,Paula Diaz,paula.diaz400@example.com,Cartagena,Bolívar,2025-11-21,Regular
+C0401,Sofia Hernandez,sofia.hernandez401@example.com,Barranquilla,Atlántico,2024-03-02,Corporativo
+C0402,Carlos Martinez,carlos.martinez402@example.com,Bucaramanga,Santander,2025-01-17,Regular
+C0403,Sebastian Sanchez,sebastian.sanchez403@example.com,Pereira,Risaralda,2025-11-26,Regular
+C0404,Sofia Garcia,sofia.garcia404@example.com,Bucaramanga,Santander,2024-11-26,Regular
+C0405,Sebastian Perez,sebastian.perez405@example.com,Cali,Valle del Cauca,2024-09-15,Premium
+C0406,Daniel Gomez,daniel.gomez406@example.com,Cartagena,Bolívar,2025-11-09,Premium
+C0407,Andres Diaz,andres.diaz407@example.com,Cali,Valle del Cauca,2024-08-08,Regular
+C0408,Mariana Diaz,mariana.diaz408@example.com,Barranquilla,Atlántico,2024-04-04,Regular
+C0409,Juliana Sanchez,juliana.sanchez409@example.com,Bucaramanga,Santander,2024-01-26,Regular
+C0410,Felipe Ruiz,felipe.ruiz410@example.com,Medellín,Antioquia,2024-11-25,Regular
+C0411,Sofia Gomez,sofia.gomez411@example.com,Barranquilla,Atlántico,2025-08-16,Regular
+C0412,Mateo Rodriguez,mateo.rodriguez412@example.com,Barranquilla,Atlántico,2025-05-16,Corporativo
+C0413,Felipe Lopez,felipe.lopez413@example.com,Barranquilla,Atlántico,2024-06-09,Regular
+C0414,Juan Moreno,juan.moreno414@example.com,Barranquilla,Atlántico,2024-06-15,Regular
+C0415,Sofia Moreno,sofia.moreno415@example.com,Santa Marta,Magdalena,2025-09-18,Regular
+C0416,Mariana Sanchez,mariana.sanchez416@example.com,Cartagena,Bolívar,2025-10-06,Regular
+C0417,Juliana Moreno,juliana.moreno417@example.com,Bucaramanga,Santander,2025-10-23,Regular
+C0418,Sebastian Perez,sebastian.perez418@example.com,Pereira,Risaralda,2024-05-15,Premium
+C0419,Laura Perez,laura.perez419@example.com,Pereira,Risaralda,2024-03-21,Regular
+C0420,Mateo Castro,mateo.castro420@example.com,Cartagena,Bolívar,2025-02-21,Regular
+C0421,Juan Garcia,juan.garcia421@example.com,Ibagué,Tolima,2024-12-18,Premium
+C0422,Mateo Torres,mateo.torres422@example.com,Ibagué,Tolima,2025-04-16,Regular
+C0423,Santiago Torres,santiago.torres423@example.com,Santa Marta,Magdalena,2025-07-22,Regular
+C0424,Laura Ruiz,laura.ruiz424@example.com,Barranquilla,Atlántico,2024-08-27,Regular
+C0425,Valentina Rodriguez,valentina.rodriguez425@example.com,Manizales,Caldas,2024-01-20,Premium
+C0426,Nicolas Moreno,nicolas.moreno426@example.com,Ibagué,Tolima,2024-09-12,Premium
+C0427,Paula Torres,paula.torres427@example.com,Bucaramanga,Santander,2025-04-13,Regular
+C0428,Daniel Torres,daniel.torres428@example.com,Bucaramanga,Santander,2025-08-11,Corporativo
+C0429,Carlos Martinez,carlos.martinez429@example.com,Pereira,Risaralda,2024-10-03,Regular
+C0430,Diana Lopez,diana.lopez430@example.com,Barranquilla,Atlántico,2024-01-07,Regular
+C0431,Mariana Torres,mariana.torres431@example.com,Medellín,Antioquia,2024-07-26,Regular
+C0432,Camila Castro,camila.castro432@example.com,Cali,Valle del Cauca,2024-10-05,Regular
+C0433,Mateo Castro,mateo.castro433@example.com,Manizales,Caldas,2024-08-24,Regular
+C0434,Juliana Moreno,juliana.moreno434@example.com,Barranquilla,Atlántico,2024-10-06,Regular
+C0435,Andres Rodriguez,andres.rodriguez435@example.com,Ibagué,Tolima,2024-02-16,Premium
+C0436,Felipe Martinez,felipe.martinez436@example.com,Bogotá,Cundinamarca,2024-04-01,Premium
+C0437,Mateo Perez,mateo.perez437@example.com,Cartagena,Bolívar,2024-04-30,Premium
+C0438,Sebastian Ramirez,sebastian.ramirez438@example.com,Bucaramanga,Santander,2025-01-03,Regular
+C0439,Felipe Martinez,felipe.martinez439@example.com,Medellín,Antioquia,2024-09-07,Corporativo
+C0440,Paula Vargas,paula.vargas440@example.com,Bucaramanga,Santander,2025-01-15,Regular
+C0441,Paula Diaz,paula.diaz441@example.com,Barranquilla,Atlántico,2025-05-27,Regular
+C0442,Camila Rodriguez,camila.rodriguez442@example.com,Manizales,Caldas,2024-03-19,Regular
+C0443,Sebastian Torres,sebastian.torres443@example.com,Manizales,Caldas,2025-01-13,Regular
+C0444,Juan Torres,juan.torres444@example.com,Pereira,Risaralda,2024-07-27,Regular
+C0445,Paula Diaz,paula.diaz445@example.com,Cali,Valle del Cauca,2025-09-16,Premium
+C0446,Nicolas Hernandez,nicolas.hernandez446@example.com,Ibagué,Tolima,2025-02-21,Regular
+C0447,Miguel Garcia,miguel.garcia447@example.com,Barranquilla,Atlántico,2025-04-24,Corporativo
+C0448,Juliana Torres,juliana.torres448@example.com,Ibagué,Tolima,2024-09-05,Regular
+C0449,Sofia Castro,sofia.castro449@example.com,Medellín,Antioquia,2024-09-16,Regular
+C0450,Valentina Torres,valentina.torres450@example.com,Barranquilla,Atlántico,2025-08-08,Regular
+C0451,Andrea Torres,andrea.torres451@example.com,Cartagena,Bolívar,2025-04-23,Regular
+C0452,Diana Garcia,diana.garcia452@example.com,Manizales,Caldas,2025-02-09,Premium
+C0453,Natalia Castro,natalia.castro453@example.com,Bucaramanga,Santander,2025-07-02,Regular
+C0454,Andres Torres,andres.torres454@example.com,Pereira,Risaralda,2025-08-19,Premium
+C0455,Diana Rodriguez,diana.rodriguez455@example.com,Ibagué,Tolima,2025-05-30,Premium
+C0456,Paula Sanchez,paula.sanchez456@example.com,Bucaramanga,Santander,2024-07-17,Regular
+C0457,Nicolas Diaz,nicolas.diaz457@example.com,Cartagena,Bolívar,2024-01-22,Regular
+C0458,Andrea Perez,andrea.perez458@example.com,Ibagué,Tolima,2025-01-16,Regular
+C0459,Mateo Ramirez,mateo.ramirez459@example.com,Bucaramanga,Santander,2025-01-22,Regular
+C0460,Valentina Ruiz,valentina.ruiz460@example.com,Medellín,Antioquia,2024-12-11,Regular
+C0461,Nicolas Moreno,nicolas.moreno461@example.com,Pereira,Risaralda,2025-02-28,Regular
+C0462,Carlos Diaz,carlos.diaz462@example.com,Cali,Valle del Cauca,2024-08-25,Regular
+C0463,Felipe Ruiz,felipe.ruiz463@example.com,Manizales,Caldas,2025-06-09,Premium
+C0464,Sebastian Perez,sebastian.perez464@example.com,Pereira,Risaralda,2025-11-17,Premium
+C0465,Diana Hernandez,diana.hernandez465@example.com,Pereira,Risaralda,2024-03-24,Regular
+C0466,Paula Castro,paula.castro466@example.com,Barranquilla,Atlántico,2024-11-03,Regular
+C0467,Valentina Ruiz,valentina.ruiz467@example.com,Barranquilla,Atlántico,2024-02-12,Regular
+C0468,Santiago Ruiz,santiago.ruiz468@example.com,Ibagué,Tolima,2024-04-21,Regular
+C0469,Sebastian Rodriguez,sebastian.rodriguez469@example.com,Bogotá,Cundinamarca,2024-02-17,Premium
+C0470,Santiago Sanchez,santiago.sanchez470@example.com,Ibagué,Tolima,2024-03-18,Premium
+C0471,Juliana Sanchez,juliana.sanchez471@example.com,Manizales,Caldas,2024-12-07,Regular
+C0472,Juan Martinez,juan.martinez472@example.com,Santa Marta,Magdalena,2025-05-20,Corporativo
+C0473,Mariana Diaz,mariana.diaz473@example.com,Ibagué,Tolima,2024-04-13,Regular
+C0474,Juliana Ramirez,juliana.ramirez474@example.com,Pereira,Risaralda,2024-04-09,Regular
+C0475,Felipe Torres,felipe.torres475@example.com,Ibagué,Tolima,2025-04-27,Premium
+C0476,Juan Ramirez,juan.ramirez476@example.com,Cali,Valle del Cauca,2025-04-16,Regular
+C0477,Diana Ruiz,diana.ruiz477@example.com,Ibagué,Tolima,2025-10-29,Premium
+C0478,Laura Martinez,laura.martinez478@example.com,Cartagena,Bolívar,2024-06-01,Regular
+C0479,Felipe Ruiz,felipe.ruiz479@example.com,Santa Marta,Magdalena,2024-09-27,Regular
+C0480,Carlos Gomez,carlos.gomez480@example.com,Bucaramanga,Santander,2024-09-26,Corporativo
+C0481,Mateo Garcia,mateo.garcia481@example.com,Bucaramanga,Santander,2025-01-04,Regular
+C0482,Mariana Gomez,mariana.gomez482@example.com,Cartagena,Bolívar,2024-07-27,Regular
+C0483,Mariana Martinez,mariana.martinez483@example.com,Cartagena,Bolívar,2024-12-14,Regular
+C0484,Valentina Sanchez,valentina.sanchez484@example.com,Pereira,Risaralda,2024-04-17,Premium
+C0485,Miguel Castro,miguel.castro485@example.com,Barranquilla,Atlántico,2025-10-08,Regular
+C0486,Felipe Diaz,felipe.diaz486@example.com,Bucaramanga,Santander,2025-11-27,Regular
+C0487,Sebastian Torres,sebastian.torres487@example.com,Medellín,Antioquia,2024-01-15,Regular
+C0488,Camila Perez,camila.perez488@example.com,Cali,Valle del Cauca,2024-02-01,Regular
+C0489,Diana Ruiz,diana.ruiz489@example.com,Pereira,Risaralda,2024-05-25,Regular
+C0490,Valentina Garcia,valentina.garcia490@example.com,Bogotá,Cundinamarca,2024-04-03,Corporativo
+C0491,Camila Hernandez,camila.hernandez491@example.com,Ibagué,Tolima,2024-06-24,Regular
+C0492,Natalia Diaz,natalia.diaz492@example.com,Medellín,Antioquia,2024-03-06,Premium
+C0493,Camila Castro,camila.castro493@example.com,Barranquilla,Atlántico,2024-02-26,Regular
+C0494,Andrea Garcia,andrea.garcia494@example.com,Barranquilla,Atlántico,2025-03-22,Regular
+C0495,Sofia Castro,sofia.castro495@example.com,Santa Marta,Magdalena,2024-06-13,Regular
+C0496,Miguel Perez,miguel.perez496@example.com,Barranquilla,Atlántico,2024-11-10,Regular
+C0497,Juliana Castro,juliana.castro497@example.com,Bogotá,Cundinamarca,2024-08-10,Regular
+C0498,Andres Sanchez,andres.sanchez498@example.com,Ibagué,Tolima,2025-07-20,Regular
+C0499,Laura Gomez,laura.gomez499@example.com,Bogotá,Cundinamarca,2025-06-04,Regular
+C0500,Daniel Gomez,daniel.gomez500@example.com,Manizales,Caldas,2024-09-09,Regular
+C0501,Natalia Gomez,natalia.gomez501@example.com,Manizales,Caldas,2024-04-30,Premium
+C0502,Sofia Torres,sofia.torres502@example.com,Cali,Valle del Cauca,2025-11-17,Regular
+C0503,Camila Castro,camila.castro503@example.com,Barranquilla,Atlántico,2024-03-24,Regular
+C0504,Miguel Vargas,miguel.vargas504@example.com,Ibagué,Tolima,2024-03-20,Regular
+C0505,Juliana Perez,juliana.perez505@example.com,Cali,Valle del Cauca,2025-06-28,Regular
+C0506,Mateo Moreno,mateo.moreno506@example.com,Bucaramanga,Santander,2025-02-11,Regular
+C0507,Juliana Diaz,juliana.diaz507@example.com,Bogotá,Cundinamarca,2024-09-28,Regular
+C0508,Andres Martinez,andres.martinez508@example.com,Cartagena,Bolívar,2025-01-05,Regular
+C0509,Juliana Garcia,juliana.garcia509@example.com,Barranquilla,Atlántico,2024-02-29,Regular
+C0510,Juliana Vargas,juliana.vargas510@example.com,Pereira,Risaralda,2024-10-11,Regular
+C0511,Felipe Perez,felipe.perez511@example.com,Ibagué,Tolima,2024-04-23,Premium
+C0512,Nicolas Vargas,nicolas.vargas512@example.com,Cartagena,Bolívar,2024-07-30,Regular
+C0513,Miguel Torres,miguel.torres513@example.com,Manizales,Caldas,2024-05-07,Regular
+C0514,Daniel Perez,daniel.perez514@example.com,Cali,Valle del Cauca,2024-09-17,Regular
+C0515,Felipe Garcia,felipe.garcia515@example.com,Bucaramanga,Santander,2024-06-17,Regular
+C0516,Diana Diaz,diana.diaz516@example.com,Cali,Valle del Cauca,2025-10-04,Regular
+C0517,Mateo Castro,mateo.castro517@example.com,Manizales,Caldas,2024-04-01,Regular
+C0518,Valentina Lopez,valentina.lopez518@example.com,Manizales,Caldas,2025-04-17,Regular
+C0519,Carlos Gomez,carlos.gomez519@example.com,Pereira,Risaralda,2024-08-18,Regular
+C0520,Daniel Ruiz,daniel.ruiz520@example.com,Manizales,Caldas,2024-01-08,Regular
+C0521,Natalia Castro,natalia.castro521@example.com,Bogotá,Cundinamarca,2025-10-17,Regular
+C0522,Juan Ramirez,juan.ramirez522@example.com,Cartagena,Bolívar,2025-04-10,Premium
+C0523,Diana Gomez,diana.gomez523@example.com,Bucaramanga,Santander,2024-09-19,Corporativo
+C0524,Sebastian Perez,sebastian.perez524@example.com,Bucaramanga,Santander,2025-04-30,Premium
+C0525,Daniel Garcia,daniel.garcia525@example.com,Manizales,Caldas,2025-08-21,Regular
+C0526,Andres Rodriguez,andres.rodriguez526@example.com,Manizales,Caldas,2025-05-08,Regular
+C0527,Mariana Hernandez,mariana.hernandez527@example.com,Bogotá,Cundinamarca,2024-09-30,Premium
+C0528,Valentina Ramirez,valentina.ramirez528@example.com,Bucaramanga,Santander,2025-03-11,Regular
+C0529,Sebastian Rodriguez,sebastian.rodriguez529@example.com,Pereira,Risaralda,2025-10-06,Regular
+C0530,Natalia Martinez,natalia.martinez530@example.com,Barranquilla,Atlántico,2024-06-08,Regular
+C0531,Miguel Torres,miguel.torres531@example.com,Bogotá,Cundinamarca,2025-07-28,Regular
+C0532,Felipe Moreno,felipe.moreno532@example.com,Bucaramanga,Santander,2024-12-07,Regular
+C0533,Daniel Diaz,daniel.diaz533@example.com,Ibagué,Tolima,2025-02-21,Corporativo
+C0534,Andres Ramirez,andres.ramirez534@example.com,Ibagué,Tolima,2024-06-29,Premium
+C0535,Paula Ramirez,paula.ramirez535@example.com,Cartagena,Bolívar,2024-06-25,Regular
+C0536,Paula Martinez,paula.martinez536@example.com,Barranquilla,Atlántico,2024-02-22,Corporativo
+C0537,Paula Sanchez,paula.sanchez537@example.com,Ibagué,Tolima,2024-03-03,Regular
+C0538,Juan Ramirez,juan.ramirez538@example.com,Barranquilla,Atlántico,2025-08-11,Regular
+C0539,Sofia Diaz,sofia.diaz539@example.com,Manizales,Caldas,2025-05-04,Premium
+C0540,Daniel Martinez,daniel.martinez540@example.com,Ibagué,Tolima,2025-11-20,Regular
+C0541,Carlos Rodriguez,carlos.rodriguez541@example.com,Bogotá,Cundinamarca,2024-03-16,Premium
+C0542,Sebastian Martinez,sebastian.martinez542@example.com,Manizales,Caldas,2024-07-23,Corporativo
+C0543,Miguel Gomez,miguel.gomez543@example.com,Manizales,Caldas,2025-02-10,Regular
+C0544,Miguel Ruiz,miguel.ruiz544@example.com,Ibagué,Tolima,2024-05-02,Regular
+C0545,Valentina Torres,valentina.torres545@example.com,Ibagué,Tolima,2024-04-19,Regular
+C0546,Paula Sanchez,paula.sanchez546@example.com,Bucaramanga,Santander,2025-08-27,Regular
+C0547,Santiago Moreno,santiago.moreno547@example.com,Cartagena,Bolívar,2025-10-31,Regular
+C0548,Camila Diaz,camila.diaz548@example.com,Cartagena,Bolívar,2024-04-16,Regular
+C0549,Miguel Ruiz,miguel.ruiz549@example.com,Cali,Valle del Cauca,2025-02-23,Premium
+C0550,Juan Vargas,juan.vargas550@example.com,Barranquilla,Atlántico,2024-01-09,Regular
+C0551,Andrea Perez,andrea.perez551@example.com,Barranquilla,Atlántico,2024-09-19,Regular
+C0552,Camila Ruiz,camila.ruiz552@example.com,Bogotá,Cundinamarca,2025-01-05,Regular
+C0553,Camila Rodriguez,camila.rodriguez553@example.com,Bogotá,Cundinamarca,2024-11-09,Regular
+C0554,Santiago Ruiz,santiago.ruiz554@example.com,Medellín,Antioquia,2025-07-18,Regular
+C0555,Andrea Garcia,andrea.garcia555@example.com,Cali,Valle del Cauca,2025-11-25,Regular
+C0556,Andrea Ramirez,andrea.ramirez556@example.com,Bogotá,Cundinamarca,2024-01-22,Regular
+C0557,Juliana Hernandez,juliana.hernandez557@example.com,Cartagena,Bolívar,2025-05-30,Regular
+C0558,Nicolas Hernandez,nicolas.hernandez558@example.com,Bogotá,Cundinamarca,2024-10-24,Regular
+C0559,Valentina Martinez,valentina.martinez559@example.com,Cali,Valle del Cauca,2025-06-08,Regular
+C0560,Valentina Ruiz,valentina.ruiz560@example.com,Ibagué,Tolima,2024-01-21,Regular
+C0561,Sebastian Diaz,sebastian.diaz561@example.com,Cartagena,Bolívar,2024-04-05,Premium
+C0562,Mateo Moreno,mateo.moreno562@example.com,Medellín,Antioquia,2024-03-11,Regular
+C0563,Juan Hernandez,juan.hernandez563@example.com,Cartagena,Bolívar,2024-07-31,Premium
+C0564,Miguel Sanchez,miguel.sanchez564@example.com,Pereira,Risaralda,2025-07-01,Corporativo
+C0565,Camila Ruiz,camila.ruiz565@example.com,Barranquilla,Atlántico,2024-02-05,Corporativo
+C0566,Andres Garcia,andres.garcia566@example.com,Bogotá,Cundinamarca,2024-12-02,Regular
+C0567,Valentina Perez,valentina.perez567@example.com,Pereira,Risaralda,2025-02-23,Corporativo
+C0568,Miguel Ramirez,miguel.ramirez568@example.com,Ibagué,Tolima,2024-05-18,Corporativo
+C0569,Natalia Perez,natalia.perez569@example.com,Manizales,Caldas,2025-03-08,Regular
+C0570,Felipe Garcia,felipe.garcia570@example.com,Manizales,Caldas,2025-06-13,Regular
+C0571,Andres Vargas,andres.vargas571@example.com,Medellín,Antioquia,2024-09-25,Corporativo
+C0572,Mariana Moreno,mariana.moreno572@example.com,Bucaramanga,Santander,2025-02-11,Premium
+C0573,Andres Ramirez,andres.ramirez573@example.com,Barranquilla,Atlántico,2024-12-14,Premium
+C0574,Laura Sanchez,laura.sanchez574@example.com,Ibagué,Tolima,2025-05-14,Regular
+C0575,Andrea Lopez,andrea.lopez575@example.com,Cali,Valle del Cauca,2024-10-10,Regular
+C0576,Andrea Martinez,andrea.martinez576@example.com,Barranquilla,Atlántico,2025-11-17,Regular
+C0577,Laura Martinez,laura.martinez577@example.com,Cali,Valle del Cauca,2025-09-28,Corporativo
+C0578,Camila Castro,camila.castro578@example.com,Medellín,Antioquia,2025-03-24,Regular
+C0579,Mateo Hernandez,mateo.hernandez579@example.com,Cali,Valle del Cauca,2025-12-01,Regular
+C0580,Miguel Garcia,miguel.garcia580@example.com,Manizales,Caldas,2024-06-13,Regular
+C0581,Paula Gomez,paula.gomez581@example.com,Cartagena,Bolívar,2025-11-27,Corporativo
+C0582,Valentina Hernandez,valentina.hernandez582@example.com,Medellín,Antioquia,2024-10-19,Regular
+C0583,Camila Perez,camila.perez583@example.com,Manizales,Caldas,2024-09-15,Regular
+C0584,Sebastian Sanchez,sebastian.sanchez584@example.com,Santa Marta,Magdalena,2025-03-11,Regular
+C0585,Santiago Sanchez,santiago.sanchez585@example.com,Cali,Valle del Cauca,2025-09-24,Regular
+C0586,Mariana Rodriguez,mariana.rodriguez586@example.com,Cartagena,Bolívar,2024-09-20,Regular
+C0587,Nicolas Ruiz,nicolas.ruiz587@example.com,Manizales,Caldas,2025-03-01,Regular
+C0588,Laura Castro,laura.castro588@example.com,Medellín,Antioquia,2025-08-13,Regular
+C0589,Juliana Perez,juliana.perez589@example.com,Manizales,Caldas,2025-03-13,Regular
+C0590,Nicolas Torres,nicolas.torres590@example.com,Pereira,Risaralda,2025-10-24,Regular
+C0591,Carlos Moreno,carlos.moreno591@example.com,Barranquilla,Atlántico,2024-07-06,Regular
+C0592,Valentina Moreno,valentina.moreno592@example.com,Pereira,Risaralda,2025-11-13,Regular
+C0593,Andres Vargas,andres.vargas593@example.com,Manizales,Caldas,2024-12-17,Regular
+C0594,Natalia Perez,natalia.perez594@example.com,Santa Marta,Magdalena,2024-03-05,Regular
+C0595,Sebastian Vargas,sebastian.vargas595@example.com,Ibagué,Tolima,2024-09-19,Premium
+C0596,Juliana Vargas,juliana.vargas596@example.com,Manizales,Caldas,2024-03-08,Premium
+C0597,Mariana Sanchez,mariana.sanchez597@example.com,Manizales,Caldas,2024-05-23,Regular
+C0598,Miguel Castro,miguel.castro598@example.com,Barranquilla,Atlántico,2025-06-18,Regular
+C0599,Daniel Gomez,daniel.gomez599@example.com,Ibagué,Tolima,2024-01-07,Corporativo
+C0600,Carlos Perez,carlos.perez600@example.com,Bucaramanga,Santander,2025-10-12,Regular
+C0601,Felipe Rodriguez,felipe.rodriguez601@example.com,Manizales,Caldas,2025-07-23,Regular
+C0602,Nicolas Moreno,nicolas.moreno602@example.com,Bucaramanga,Santander,2025-10-12,Premium
+C0603,Laura Moreno,laura.moreno603@example.com,Medellín,Antioquia,2025-07-07,Corporativo
+C0604,Juan Torres,juan.torres604@example.com,Pereira,Risaralda,2024-12-14,Regular
+C0605,Natalia Diaz,natalia.diaz605@example.com,Bogotá,Cundinamarca,2024-10-20,Regular
+C0606,Paula Garcia,paula.garcia606@example.com,Bogotá,Cundinamarca,2024-05-31,Premium
+C0607,Carlos Sanchez,carlos.sanchez607@example.com,Barranquilla,Atlántico,2025-09-12,Premium
+C0608,Andrea Gomez,andrea.gomez608@example.com,Santa Marta,Magdalena,2024-02-19,Regular
+C0609,Santiago Garcia,santiago.garcia609@example.com,Bogotá,Cundinamarca,2024-01-28,Regular
+C0610,Andres Moreno,andres.moreno610@example.com,Medellín,Antioquia,2025-04-11,Premium
+C0611,Sebastian Moreno,sebastian.moreno611@example.com,Cali,Valle del Cauca,2025-09-23,Regular
+C0612,Paula Vargas,paula.vargas612@example.com,Bucaramanga,Santander,2024-03-27,Regular
+C0613,Paula Vargas,paula.vargas613@example.com,Pereira,Risaralda,2024-12-01,Regular
+C0614,Sofia Lopez,sofia.lopez614@example.com,Cartagena,Bolívar,2024-01-20,Regular
+C0615,Daniel Castro,daniel.castro615@example.com,Ibagué,Tolima,2024-11-30,Premium
+C0616,Felipe Perez,felipe.perez616@example.com,Cartagena,Bolívar,2025-07-08,Corporativo
+C0617,Juan Diaz,juan.diaz617@example.com,Pereira,Risaralda,2025-03-19,Premium
+C0618,Paula Ruiz,paula.ruiz618@example.com,Ibagué,Tolima,2025-01-20,Regular
+C0619,Camila Perez,camila.perez619@example.com,Bogotá,Cundinamarca,2024-06-15,Corporativo
+C0620,Carlos Perez,carlos.perez620@example.com,Pereira,Risaralda,2025-08-08,Regular
+C0621,Felipe Vargas,felipe.vargas621@example.com,Medellín,Antioquia,2024-09-30,Regular
+C0622,Carlos Ruiz,carlos.ruiz622@example.com,Bogotá,Cundinamarca,2024-09-27,Regular
+C0623,Juan Vargas,juan.vargas623@example.com,Cartagena,Bolívar,2024-05-06,Regular
+C0624,Nicolas Ruiz,nicolas.ruiz624@example.com,Manizales,Caldas,2025-10-04,Regular
+C0625,Camila Castro,camila.castro625@example.com,Cali,Valle del Cauca,2024-01-20,Regular
+C0626,Sofia Rodriguez,sofia.rodriguez626@example.com,Bogotá,Cundinamarca,2025-02-07,Regular
+C0627,Andrea Castro,andrea.castro627@example.com,Cartagena,Bolívar,2025-08-18,Regular
+C0628,Andres Torres,andres.torres628@example.com,Cartagena,Bolívar,2025-11-03,Regular
+C0629,Paula Hernandez,paula.hernandez629@example.com,Santa Marta,Magdalena,2025-05-07,Regular
+C0630,Andrea Rodriguez,andrea.rodriguez630@example.com,Barranquilla,Atlántico,2024-11-02,Regular
+C0631,Juan Garcia,juan.garcia631@example.com,Manizales,Caldas,2025-01-31,Regular
+C0632,Nicolas Perez,nicolas.perez632@example.com,Santa Marta,Magdalena,2024-05-28,Regular
+C0633,Laura Castro,laura.castro633@example.com,Santa Marta,Magdalena,2025-07-04,Corporativo
+C0634,Laura Moreno,laura.moreno634@example.com,Ibagué,Tolima,2024-06-28,Regular
+C0635,Juan Vargas,juan.vargas635@example.com,Pereira,Risaralda,2024-11-13,Regular
+C0636,Natalia Vargas,natalia.vargas636@example.com,Pereira,Risaralda,2024-11-14,Premium
+C0637,Andres Gomez,andres.gomez637@example.com,Cartagena,Bolívar,2025-05-14,Regular
+C0638,Andres Gomez,andres.gomez638@example.com,Cali,Valle del Cauca,2024-11-30,Premium
+C0639,Andrea Lopez,andrea.lopez639@example.com,Santa Marta,Magdalena,2025-02-25,Premium
+C0640,Andrea Diaz,andrea.diaz640@example.com,Cali,Valle del Cauca,2025-07-29,Corporativo
+C0641,Miguel Garcia,miguel.garcia641@example.com,Barranquilla,Atlántico,2025-03-17,Regular
+C0642,Sofia Perez,sofia.perez642@example.com,Cali,Valle del Cauca,2024-05-25,Premium
+C0643,Andres Sanchez,andres.sanchez643@example.com,Pereira,Risaralda,2025-10-28,Regular
+C0644,Andrea Hernandez,andrea.hernandez644@example.com,Bogotá,Cundinamarca,2025-09-26,Regular
+C0645,Miguel Moreno,miguel.moreno645@example.com,Medellín,Antioquia,2025-01-13,Corporativo
+C0646,Juliana Lopez,juliana.lopez646@example.com,Santa Marta,Magdalena,2025-06-08,Regular
+C0647,Diana Martinez,diana.martinez647@example.com,Pereira,Risaralda,2025-05-18,Premium
+C0648,Camila Hernandez,camila.hernandez648@example.com,Ibagué,Tolima,2024-03-22,Regular
+C0649,Sofia Rodriguez,sofia.rodriguez649@example.com,Medellín,Antioquia,2025-05-12,Regular
+C0650,Laura Rodriguez,laura.rodriguez650@example.com,Bucaramanga,Santander,2024-11-14,Regular
+C0651,Carlos Martinez,carlos.martinez651@example.com,Barranquilla,Atlántico,2025-07-06,Regular
+C0652,Mariana Sanchez,mariana.sanchez652@example.com,Ibagué,Tolima,2025-06-02,Regular
+C0653,Diana Castro,diana.castro653@example.com,Cartagena,Bolívar,2024-09-05,Regular
+C0654,Diana Sanchez,diana.sanchez654@example.com,Cali,Valle del Cauca,2024-10-16,Regular
+C0655,Sebastian Moreno,sebastian.moreno655@example.com,Santa Marta,Magdalena,2024-03-08,Regular
+C0656,Daniel Diaz,daniel.diaz656@example.com,Bogotá,Cundinamarca,2024-06-03,Premium
+C0657,Paula Rodriguez,paula.rodriguez657@example.com,Bucaramanga,Santander,2024-11-20,Premium
+C0658,Sofia Diaz,sofia.diaz658@example.com,Manizales,Caldas,2024-06-18,Regular
+C0659,Valentina Perez,valentina.perez659@example.com,Cali,Valle del Cauca,2024-10-31,Regular
+C0660,Valentina Gomez,valentina.gomez660@example.com,Bucaramanga,Santander,2024-11-14,Regular
+C0661,Paula Martinez,paula.martinez661@example.com,Bogotá,Cundinamarca,2025-01-22,Premium
+C0662,Natalia Perez,natalia.perez662@example.com,Pereira,Risaralda,2024-01-05,Regular
+C0663,Camila Diaz,camila.diaz663@example.com,Ibagué,Tolima,2025-06-07,Premium
+C0664,Camila Hernandez,camila.hernandez664@example.com,Barranquilla,Atlántico,2024-01-14,Regular
+C0665,Daniel Gomez,daniel.gomez665@example.com,Manizales,Caldas,2025-04-07,Premium
+C0666,Andres Lopez,andres.lopez666@example.com,Santa Marta,Magdalena,2024-01-09,Premium
+C0667,Nicolas Gomez,nicolas.gomez667@example.com,Barranquilla,Atlántico,2024-08-03,Regular
+C0668,Miguel Ramirez,miguel.ramirez668@example.com,Ibagué,Tolima,2025-05-21,Regular
+C0669,Sofia Rodriguez,sofia.rodriguez669@example.com,Pereira,Risaralda,2024-04-16,Regular
+C0670,Valentina Martinez,valentina.martinez670@example.com,Bogotá,Cundinamarca,2024-01-22,Premium
+C0671,Juan Vargas,juan.vargas671@example.com,Manizales,Caldas,2025-03-01,Regular
+C0672,Juan Lopez,juan.lopez672@example.com,Bogotá,Cundinamarca,2025-03-02,Premium
+C0673,Andres Garcia,andres.garcia673@example.com,Cartagena,Bolívar,2024-02-03,Regular
+C0674,Diana Ramirez,diana.ramirez674@example.com,Santa Marta,Magdalena,2025-03-01,Regular
+C0675,Diana Hernandez,diana.hernandez675@example.com,Manizales,Caldas,2025-02-25,Regular
+C0676,Juan Torres,juan.torres676@example.com,Cali,Valle del Cauca,2025-02-11,Regular
+C0677,Andrea Sanchez,andrea.sanchez677@example.com,Cartagena,Bolívar,2024-09-01,Regular
+C0678,Diana Moreno,diana.moreno678@example.com,Cartagena,Bolívar,2024-01-22,Regular
+C0679,Paula Martinez,paula.martinez679@example.com,Cartagena,Bolívar,2025-03-31,Regular
+C0680,Nicolas Ramirez,nicolas.ramirez680@example.com,Pereira,Risaralda,2024-06-12,Regular
+C0681,Andrea Gomez,andrea.gomez681@example.com,Ibagué,Tolima,2025-05-03,Premium
+C0682,Andrea Martinez,andrea.martinez682@example.com,Barranquilla,Atlántico,2024-05-22,Regular
+C0683,Nicolas Diaz,nicolas.diaz683@example.com,Bogotá,Cundinamarca,2025-06-09,Corporativo
+C0684,Mateo Sanchez,mateo.sanchez684@example.com,Cali,Valle del Cauca,2025-01-14,Regular
+C0685,Daniel Hernandez,daniel.hernandez685@example.com,Medellín,Antioquia,2025-03-25,Premium
+C0686,Natalia Moreno,natalia.moreno686@example.com,Ibagué,Tolima,2025-06-15,Regular
+C0687,Sofia Gomez,sofia.gomez687@example.com,Santa Marta,Magdalena,2024-07-31,Regular
+C0688,Mariana Gomez,mariana.gomez688@example.com,Santa Marta,Magdalena,2025-08-10,Regular
+C0689,Valentina Perez,valentina.perez689@example.com,Barranquilla,Atlántico,2024-06-02,Regular
+C0690,Nicolas Hernandez,nicolas.hernandez690@example.com,Ibagué,Tolima,2024-03-05,Regular
+C0691,Carlos Ramirez,carlos.ramirez691@example.com,Manizales,Caldas,2024-06-11,Regular
+C0692,Sebastian Moreno,sebastian.moreno692@example.com,Ibagué,Tolima,2024-03-20,Regular
+C0693,Paula Gomez,paula.gomez693@example.com,Bogotá,Cundinamarca,2025-01-21,Premium
+C0694,Carlos Martinez,carlos.martinez694@example.com,Bogotá,Cundinamarca,2024-12-18,Regular
+C0695,Valentina Ramirez,valentina.ramirez695@example.com,Bogotá,Cundinamarca,2024-11-15,Corporativo
+C0696,Natalia Sanchez,natalia.sanchez696@example.com,Bucaramanga,Santander,2024-11-10,Regular
+C0697,Juliana Gomez,juliana.gomez697@example.com,Bogotá,Cundinamarca,2024-07-08,Regular
+C0698,Natalia Hernandez,natalia.hernandez698@example.com,Cartagena,Bolívar,2025-07-06,Regular
+C0699,Andres Ramirez,andres.ramirez699@example.com,Ibagué,Tolima,2024-06-25,Regular
+C0700,Laura Ruiz,laura.ruiz700@example.com,Santa Marta,Magdalena,2024-06-27,Regular
+C0701,Felipe Garcia,felipe.garcia701@example.com,Pereira,Risaralda,2024-01-26,Regular
+C0702,Andres Ruiz,andres.ruiz702@example.com,Pereira,Risaralda,2024-05-19,Regular
+C0703,Mateo Garcia,mateo.garcia703@example.com,Santa Marta,Magdalena,2024-04-10,Regular
+C0704,Mateo Lopez,mateo.lopez704@example.com,Bogotá,Cundinamarca,2025-09-23,Regular
+C0705,Paula Moreno,paula.moreno705@example.com,Pereira,Risaralda,2025-05-24,Corporativo
+C0706,Daniel Ramirez,daniel.ramirez706@example.com,Pereira,Risaralda,2025-05-19,Premium
+C0707,Carlos Lopez,carlos.lopez707@example.com,Santa Marta,Magdalena,2025-03-21,Regular
+C0708,Mateo Moreno,mateo.moreno708@example.com,Barranquilla,Atlántico,2024-08-11,Regular
+C0709,Valentina Moreno,valentina.moreno709@example.com,Pereira,Risaralda,2025-07-21,Premium
+C0710,Sofia Martinez,sofia.martinez710@example.com,Medellín,Antioquia,2024-04-07,Regular
+C0711,Natalia Diaz,natalia.diaz711@example.com,Medellín,Antioquia,2024-06-13,Regular
+C0712,Andres Lopez,andres.lopez712@example.com,Pereira,Risaralda,2025-08-09,Regular
+C0713,Sebastian Perez,sebastian.perez713@example.com,Manizales,Caldas,2024-09-26,Regular
+C0714,Paula Ruiz,paula.ruiz714@example.com,Barranquilla,Atlántico,2024-03-16,Corporativo
+C0715,Juliana Ruiz,juliana.ruiz715@example.com,Cali,Valle del Cauca,2025-04-23,Regular
+C0716,Nicolas Rodriguez,nicolas.rodriguez716@example.com,Bogotá,Cundinamarca,2024-07-07,Regular
+C0717,Andres Hernandez,andres.hernandez717@example.com,Barranquilla,Atlántico,2025-08-19,Regular
+C0718,Miguel Rodriguez,miguel.rodriguez718@example.com,Bogotá,Cundinamarca,2025-10-28,Regular
+C0719,Nicolas Perez,nicolas.perez719@example.com,Cartagena,Bolívar,2024-03-11,Regular
+C0720,Paula Moreno,paula.moreno720@example.com,Barranquilla,Atlántico,2024-03-07,Regular
+C0721,Andres Rodriguez,andres.rodriguez721@example.com,Pereira,Risaralda,2024-01-17,Regular
+C0722,Andrea Lopez,andrea.lopez722@example.com,Cartagena,Bolívar,2024-02-04,Regular
+C0723,Natalia Perez,natalia.perez723@example.com,Cartagena,Bolívar,2024-11-02,Regular
+C0724,Carlos Garcia,carlos.garcia724@example.com,Barranquilla,Atlántico,2024-12-11,Regular
+C0725,Valentina Martinez,valentina.martinez725@example.com,Bucaramanga,Santander,2024-06-29,Regular
+C0726,Natalia Sanchez,natalia.sanchez726@example.com,Ibagué,Tolima,2025-10-04,Premium
+C0727,Daniel Sanchez,daniel.sanchez727@example.com,Manizales,Caldas,2025-08-04,Regular
+C0728,Valentina Perez,valentina.perez728@example.com,Bucaramanga,Santander,2024-09-23,Regular
+C0729,Nicolas Gomez,nicolas.gomez729@example.com,Bogotá,Cundinamarca,2024-12-06,Premium
+C0730,Mateo Hernandez,mateo.hernandez730@example.com,Barranquilla,Atlántico,2024-02-19,Regular
+C0731,Sofia Vargas,sofia.vargas731@example.com,Medellín,Antioquia,2024-07-14,Regular
+C0732,Valentina Perez,valentina.perez732@example.com,Bucaramanga,Santander,2024-06-16,Premium
+C0733,Andres Rodriguez,andres.rodriguez733@example.com,Pereira,Risaralda,2024-10-06,Regular
+C0734,Carlos Castro,carlos.castro734@example.com,Bucaramanga,Santander,2025-07-09,Regular
+C0735,Sofia Moreno,sofia.moreno735@example.com,Pereira,Risaralda,2024-02-04,Corporativo
+C0736,Andrea Lopez,andrea.lopez736@example.com,Pereira,Risaralda,2024-12-17,Regular
+C0737,Valentina Castro,valentina.castro737@example.com,Manizales,Caldas,2024-12-05,Premium
+C0738,Mateo Perez,mateo.perez738@example.com,Ibagué,Tolima,2025-10-30,Regular
+C0739,Camila Rodriguez,camila.rodriguez739@example.com,Cali,Valle del Cauca,2024-06-16,Regular
+C0740,Miguel Perez,miguel.perez740@example.com,Manizales,Caldas,2025-02-06,Regular
+C0741,Natalia Garcia,natalia.garcia741@example.com,Cali,Valle del Cauca,2025-07-23,Regular
+C0742,Valentina Moreno,valentina.moreno742@example.com,Medellín,Antioquia,2025-01-27,Regular
+C0743,Nicolas Rodriguez,nicolas.rodriguez743@example.com,Manizales,Caldas,2025-06-29,Regular
+C0744,Diana Torres,diana.torres744@example.com,Pereira,Risaralda,2024-02-26,Regular
+C0745,Mariana Sanchez,mariana.sanchez745@example.com,Ibagué,Tolima,2024-05-23,Regular
+C0746,Miguel Lopez,miguel.lopez746@example.com,Barranquilla,Atlántico,2024-12-17,Regular
+C0747,Natalia Sanchez,natalia.sanchez747@example.com,Barranquilla,Atlántico,2024-02-26,Regular
+C0748,Andres Torres,andres.torres748@example.com,Cali,Valle del Cauca,2024-11-08,Regular
+C0749,Felipe Garcia,felipe.garcia749@example.com,Bogotá,Cundinamarca,2024-09-18,Premium
+C0750,Carlos Rodriguez,carlos.rodriguez750@example.com,Medellín,Antioquia,2025-10-09,Regular
+C0751,Valentina Rodriguez,valentina.rodriguez751@example.com,Cali,Valle del Cauca,2025-03-28,Regular
+C0752,Andres Ruiz,andres.ruiz752@example.com,Santa Marta,Magdalena,2024-03-10,Premium
+C0753,Juliana Torres,juliana.torres753@example.com,Medellín,Antioquia,2024-06-23,Premium
+C0754,Valentina Vargas,valentina.vargas754@example.com,Barranquilla,Atlántico,2024-05-22,Regular
+C0755,Camila Hernandez,camila.hernandez755@example.com,Cali,Valle del Cauca,2024-08-30,Regular
+C0756,Diana Sanchez,diana.sanchez756@example.com,Cali,Valle del Cauca,2025-01-14,Premium
+C0757,Valentina Lopez,valentina.lopez757@example.com,Barranquilla,Atlántico,2024-08-12,Regular
+C0758,Paula Ramirez,paula.ramirez758@example.com,Medellín,Antioquia,2025-03-11,Regular
+C0759,Valentina Lopez,valentina.lopez759@example.com,Bucaramanga,Santander,2025-07-11,Regular
+C0760,Valentina Hernandez,valentina.hernandez760@example.com,Ibagué,Tolima,2024-11-19,Regular
+C0761,Laura Perez,laura.perez761@example.com,Ibagué,Tolima,2024-06-16,Regular
+C0762,Paula Castro,paula.castro762@example.com,Pereira,Risaralda,2025-06-04,Regular
+C0763,Valentina Garcia,valentina.garcia763@example.com,Bucaramanga,Santander,2025-02-16,Regular
+C0764,Andres Torres,andres.torres764@example.com,Pereira,Risaralda,2024-05-31,Regular
+C0765,Juan Moreno,juan.moreno765@example.com,Barranquilla,Atlántico,2024-06-26,Corporativo
+C0766,Mateo Martinez,mateo.martinez766@example.com,Barranquilla,Atlántico,2024-10-13,Regular
+C0767,Felipe Vargas,felipe.vargas767@example.com,Santa Marta,Magdalena,2025-02-13,Regular
+C0768,Daniel Ramirez,daniel.ramirez768@example.com,Medellín,Antioquia,2024-02-04,Regular
+C0769,Paula Rodriguez,paula.rodriguez769@example.com,Bucaramanga,Santander,2024-10-04,Regular
+C0770,Juliana Moreno,juliana.moreno770@example.com,Manizales,Caldas,2025-03-03,Regular
+C0771,Juan Ruiz,juan.ruiz771@example.com,Santa Marta,Magdalena,2024-11-16,Regular
+C0772,Natalia Perez,natalia.perez772@example.com,Manizales,Caldas,2025-02-06,Premium
+C0773,Sebastian Rodriguez,sebastian.rodriguez773@example.com,Bucaramanga,Santander,2025-01-31,Regular
+C0774,Diana Garcia,diana.garcia774@example.com,Pereira,Risaralda,2025-03-26,Premium
+C0775,Juliana Martinez,juliana.martinez775@example.com,Manizales,Caldas,2025-10-04,Corporativo
+C0776,Santiago Martinez,santiago.martinez776@example.com,Ibagué,Tolima,2024-03-06,Regular
+C0777,Natalia Garcia,natalia.garcia777@example.com,Manizales,Caldas,2024-09-15,Corporativo
+C0778,Natalia Garcia,natalia.garcia778@example.com,Cartagena,Bolívar,2024-06-26,Premium
+C0779,Juliana Martinez,juliana.martinez779@example.com,Pereira,Risaralda,2025-11-27,Premium
+C0780,Felipe Perez,felipe.perez780@example.com,Bucaramanga,Santander,2025-05-17,Regular
+C0781,Natalia Torres,natalia.torres781@example.com,Santa Marta,Magdalena,2025-03-08,Premium
+C0782,Felipe Diaz,felipe.diaz782@example.com,Medellín,Antioquia,2025-09-11,Premium
+C0783,Felipe Perez,felipe.perez783@example.com,Medellín,Antioquia,2024-08-22,Regular
+C0784,Sebastian Gomez,sebastian.gomez784@example.com,Barranquilla,Atlántico,2024-10-21,Regular
+C0785,Santiago Moreno,santiago.moreno785@example.com,Santa Marta,Magdalena,2025-04-26,Regular
+C0786,Sofia Rodriguez,sofia.rodriguez786@example.com,Cartagena,Bolívar,2024-08-27,Regular
+C0787,Camila Martinez,camila.martinez787@example.com,Bogotá,Cundinamarca,2024-08-10,Regular
+C0788,Carlos Garcia,carlos.garcia788@example.com,Santa Marta,Magdalena,2024-05-09,Regular
+C0789,Camila Martinez,camila.martinez789@example.com,Bogotá,Cundinamarca,2024-08-18,Regular
+C0790,Paula Perez,paula.perez790@example.com,Bogotá,Cundinamarca,2024-10-10,Regular
+C0791,Laura Sanchez,laura.sanchez791@example.com,Bogotá,Cundinamarca,2025-07-28,Regular
+C0792,Juliana Garcia,juliana.garcia792@example.com,Ibagué,Tolima,2024-02-04,Regular
+C0793,Camila Hernandez,camila.hernandez793@example.com,Medellín,Antioquia,2025-10-13,Regular
+C0794,Juan Perez,juan.perez794@example.com,Ibagué,Tolima,2025-04-15,Regular
+C0795,Andrea Garcia,andrea.garcia795@example.com,Cartagena,Bolívar,2025-04-25,Regular
+C0796,Felipe Lopez,felipe.lopez796@example.com,Barranquilla,Atlántico,2025-08-24,Regular
+C0797,Sofia Garcia,sofia.garcia797@example.com,Bogotá,Cundinamarca,2025-04-27,Regular
+C0798,Natalia Martinez,natalia.martinez798@example.com,Ibagué,Tolima,2025-05-08,Regular
+C0799,Paula Rodriguez,paula.rodriguez799@example.com,Medellín,Antioquia,2025-08-19,Regular
+C0800,Diana Hernandez,diana.hernandez800@example.com,Ibagué,Tolima,2025-09-09,Premium
+C0801,Juliana Castro,juliana.castro801@example.com,Cartagena,Bolívar,2025-07-04,Corporativo
+C0802,Mariana Vargas,mariana.vargas802@example.com,Bucaramanga,Santander,2024-12-11,Regular
+C0803,Daniel Moreno,daniel.moreno803@example.com,Santa Marta,Magdalena,2024-03-31,Regular
+C0804,Andrea Sanchez,andrea.sanchez804@example.com,Bogotá,Cundinamarca,2025-07-29,Regular
+C0805,Miguel Torres,miguel.torres805@example.com,Ibagué,Tolima,2024-02-22,Regular
+C0806,Juan Castro,juan.castro806@example.com,Bogotá,Cundinamarca,2024-11-10,Regular
+C0807,Diana Perez,diana.perez807@example.com,Ibagué,Tolima,2024-12-27,Regular
+C0808,Carlos Rodriguez,carlos.rodriguez808@example.com,Santa Marta,Magdalena,2025-11-14,Regular
+C0809,Miguel Ruiz,miguel.ruiz809@example.com,Ibagué,Tolima,2024-10-13,Regular
+C0810,Mateo Torres,mateo.torres810@example.com,Medellín,Antioquia,2025-07-21,Regular
+C0811,Sebastian Garcia,sebastian.garcia811@example.com,Santa Marta,Magdalena,2024-01-22,Regular
+C0812,Santiago Castro,santiago.castro812@example.com,Cali,Valle del Cauca,2024-09-30,Premium
+C0813,Sebastian Vargas,sebastian.vargas813@example.com,Cali,Valle del Cauca,2024-10-08,Corporativo
+C0814,Felipe Torres,felipe.torres814@example.com,Medellín,Antioquia,2025-05-10,Regular
+C0815,Sofia Castro,sofia.castro815@example.com,Barranquilla,Atlántico,2025-01-28,Premium
+C0816,Mariana Moreno,mariana.moreno816@example.com,Barranquilla,Atlántico,2025-06-20,Regular
+C0817,Sebastian Rodriguez,sebastian.rodriguez817@example.com,Pereira,Risaralda,2024-01-22,Regular
+C0818,Carlos Hernandez,carlos.hernandez818@example.com,Medellín,Antioquia,2024-05-17,Regular
+C0819,Andrea Sanchez,andrea.sanchez819@example.com,Cali,Valle del Cauca,2024-06-08,Corporativo
+C0820,Sofia Martinez,sofia.martinez820@example.com,Cartagena,Bolívar,2025-11-20,Premium
+C0821,Sebastian Ramirez,sebastian.ramirez821@example.com,Santa Marta,Magdalena,2024-03-05,Regular
+C0822,Mateo Martinez,mateo.martinez822@example.com,Bucaramanga,Santander,2024-05-15,Corporativo
+C0823,Andrea Martinez,andrea.martinez823@example.com,Santa Marta,Magdalena,2024-03-10,Regular
+C0824,Paula Ramirez,paula.ramirez824@example.com,Cali,Valle del Cauca,2024-03-21,Regular
+C0825,Sofia Rodriguez,sofia.rodriguez825@example.com,Manizales,Caldas,2024-06-30,Regular
+C0826,Felipe Torres,felipe.torres826@example.com,Pereira,Risaralda,2025-03-25,Regular
+C0827,Natalia Ramirez,natalia.ramirez827@example.com,Medellín,Antioquia,2024-08-12,Corporativo
+C0828,Laura Moreno,laura.moreno828@example.com,Ibagué,Tolima,2024-09-30,Premium
+C0829,Andrea Gomez,andrea.gomez829@example.com,Bogotá,Cundinamarca,2025-11-29,Premium
+C0830,Juliana Rodriguez,juliana.rodriguez830@example.com,Santa Marta,Magdalena,2024-12-02,Regular
+C0831,Natalia Rodriguez,natalia.rodriguez831@example.com,Ibagué,Tolima,2025-03-22,Regular
+C0832,Diana Martinez,diana.martinez832@example.com,Bogotá,Cundinamarca,2025-02-26,Regular
+C0833,Natalia Martinez,natalia.martinez833@example.com,Bucaramanga,Santander,2024-05-14,Regular
+C0834,Camila Torres,camila.torres834@example.com,Cali,Valle del Cauca,2025-08-21,Regular
+C0835,Mateo Perez,mateo.perez835@example.com,Cartagena,Bolívar,2024-08-11,Regular
+C0836,Carlos Lopez,carlos.lopez836@example.com,Medellín,Antioquia,2024-09-10,Regular
+C0837,Miguel Torres,miguel.torres837@example.com,Santa Marta,Magdalena,2024-04-20,Regular
+C0838,Nicolas Ruiz,nicolas.ruiz838@example.com,Barranquilla,Atlántico,2025-11-15,Regular
+C0839,Mariana Sanchez,mariana.sanchez839@example.com,Cartagena,Bolívar,2025-04-10,Regular
+C0840,Mateo Ruiz,mateo.ruiz840@example.com,Cali,Valle del Cauca,2024-12-12,Regular
+C0841,Juliana Gomez,juliana.gomez841@example.com,Santa Marta,Magdalena,2024-11-27,Regular
+C0842,Juan Martinez,juan.martinez842@example.com,Cartagena,Bolívar,2024-01-25,Regular
+C0843,Natalia Ramirez,natalia.ramirez843@example.com,Santa Marta,Magdalena,2025-08-08,Regular
+C0844,Andres Castro,andres.castro844@example.com,Manizales,Caldas,2025-04-09,Corporativo
+C0845,Felipe Hernandez,felipe.hernandez845@example.com,Barranquilla,Atlántico,2025-11-22,Regular
+C0846,Andres Sanchez,andres.sanchez846@example.com,Pereira,Risaralda,2024-11-20,Premium
+C0847,Juliana Rodriguez,juliana.rodriguez847@example.com,Medellín,Antioquia,2025-04-14,Premium
+C0848,Diana Diaz,diana.diaz848@example.com,Medellín,Antioquia,2025-11-11,Premium
+C0849,Sofia Ruiz,sofia.ruiz849@example.com,Cartagena,Bolívar,2025-06-21,Regular
+C0850,Camila Vargas,camila.vargas850@example.com,Manizales,Caldas,2024-11-19,Regular
+C0851,Mateo Castro,mateo.castro851@example.com,Cali,Valle del Cauca,2025-04-07,Regular
+C0852,Mariana Ramirez,mariana.ramirez852@example.com,Barranquilla,Atlántico,2025-08-16,Regular
+C0853,Miguel Martinez,miguel.martinez853@example.com,Bucaramanga,Santander,2025-08-28,Corporativo
+C0854,Santiago Castro,santiago.castro854@example.com,Santa Marta,Magdalena,2024-01-04,Premium
+C0855,Mateo Vargas,mateo.vargas855@example.com,Ibagué,Tolima,2024-09-29,Regular
+C0856,Santiago Vargas,santiago.vargas856@example.com,Manizales,Caldas,2025-11-15,Regular
+C0857,Daniel Gomez,daniel.gomez857@example.com,Manizales,Caldas,2025-07-04,Regular
+C0858,Carlos Moreno,carlos.moreno858@example.com,Medellín,Antioquia,2025-09-13,Regular
+C0859,Carlos Vargas,carlos.vargas859@example.com,Manizales,Caldas,2025-02-26,Regular
+C0860,Juliana Vargas,juliana.vargas860@example.com,Bucaramanga,Santander,2024-11-15,Premium
+C0861,Sofia Lopez,sofia.lopez861@example.com,Medellín,Antioquia,2024-02-19,Regular
+C0862,Laura Garcia,laura.garcia862@example.com,Bucaramanga,Santander,2024-03-14,Regular
+C0863,Mateo Moreno,mateo.moreno863@example.com,Bucaramanga,Santander,2025-04-17,Regular
+C0864,Nicolas Ruiz,nicolas.ruiz864@example.com,Manizales,Caldas,2025-02-20,Regular
+C0865,Sebastian Torres,sebastian.torres865@example.com,Cali,Valle del Cauca,2025-05-24,Regular
+C0866,Natalia Moreno,natalia.moreno866@example.com,Bucaramanga,Santander,2024-09-11,Corporativo
+C0867,Andres Garcia,andres.garcia867@example.com,Cali,Valle del Cauca,2024-08-27,Regular
+C0868,Natalia Perez,natalia.perez868@example.com,Cali,Valle del Cauca,2025-03-22,Regular
+C0869,Miguel Ramirez,miguel.ramirez869@example.com,Santa Marta,Magdalena,2025-04-20,Regular
+C0870,Paula Sanchez,paula.sanchez870@example.com,Barranquilla,Atlántico,2024-01-18,Premium
+C0871,Valentina Castro,valentina.castro871@example.com,Cartagena,Bolívar,2025-01-25,Premium
+C0872,Camila Ruiz,camila.ruiz872@example.com,Ibagué,Tolima,2024-11-20,Regular
+C0873,Carlos Perez,carlos.perez873@example.com,Ibagué,Tolima,2024-04-02,Regular
+C0874,Sebastian Martinez,sebastian.martinez874@example.com,Ibagué,Tolima,2025-04-07,Premium
+C0875,Felipe Ruiz,felipe.ruiz875@example.com,Cali,Valle del Cauca,2024-01-12,Regular
+C0876,Natalia Ruiz,natalia.ruiz876@example.com,Cartagena,Bolívar,2025-01-25,Regular
+C0877,Mariana Torres,mariana.torres877@example.com,Cali,Valle del Cauca,2024-01-08,Regular
+C0878,Andrea Castro,andrea.castro878@example.com,Ibagué,Tolima,2024-12-07,Regular
+C0879,Juan Castro,juan.castro879@example.com,Cali,Valle del Cauca,2025-05-20,Regular
+C0880,Valentina Diaz,valentina.diaz880@example.com,Pereira,Risaralda,2024-05-17,Regular
+C0881,Andres Vargas,andres.vargas881@example.com,Manizales,Caldas,2025-06-01,Regular
+C0882,Daniel Sanchez,daniel.sanchez882@example.com,Bogotá,Cundinamarca,2024-12-06,Premium
+C0883,Carlos Rodriguez,carlos.rodriguez883@example.com,Barranquilla,Atlántico,2024-04-07,Regular
+C0884,Juliana Moreno,juliana.moreno884@example.com,Bogotá,Cundinamarca,2025-03-11,Regular
+C0885,Juan Diaz,juan.diaz885@example.com,Manizales,Caldas,2024-08-25,Regular
+C0886,Andrea Castro,andrea.castro886@example.com,Cartagena,Bolívar,2024-01-01,Regular
+C0887,Camila Ruiz,camila.ruiz887@example.com,Medellín,Antioquia,2024-05-29,Regular
+C0888,Paula Hernandez,paula.hernandez888@example.com,Ibagué,Tolima,2024-03-07,Regular
+C0889,Sebastian Moreno,sebastian.moreno889@example.com,Bogotá,Cundinamarca,2025-06-11,Regular
+C0890,Juliana Garcia,juliana.garcia890@example.com,Cartagena,Bolívar,2024-11-29,Regular
+C0891,Camila Torres,camila.torres891@example.com,Pereira,Risaralda,2025-03-24,Corporativo
+C0892,Miguel Sanchez,miguel.sanchez892@example.com,Santa Marta,Magdalena,2024-09-29,Regular
+C0893,Juliana Ramirez,juliana.ramirez893@example.com,Santa Marta,Magdalena,2025-01-02,Regular
+C0894,Nicolas Hernandez,nicolas.hernandez894@example.com,Medellín,Antioquia,2024-09-19,Regular
+C0895,Carlos Torres,carlos.torres895@example.com,Bucaramanga,Santander,2024-06-23,Regular
+C0896,Carlos Perez,carlos.perez896@example.com,Cali,Valle del Cauca,2025-04-21,Regular
+C0897,Santiago Diaz,santiago.diaz897@example.com,Cali,Valle del Cauca,2025-10-29,Regular
+C0898,Natalia Ruiz,natalia.ruiz898@example.com,Bucaramanga,Santander,2024-11-28,Corporativo
+C0899,Felipe Rodriguez,felipe.rodriguez899@example.com,Medellín,Antioquia,2024-06-24,Regular
+C0900,Valentina Castro,valentina.castro900@example.com,Barranquilla,Atlántico,2025-08-02,Regular
+C0901,Miguel Perez,miguel.perez901@example.com,Manizales,Caldas,2024-06-27,Corporativo
+C0902,Andres Vargas,andres.vargas902@example.com,Manizales,Caldas,2024-12-03,Premium
+C0903,Diana Rodriguez,diana.rodriguez903@example.com,Manizales,Caldas,2024-04-12,Regular
+C0904,Andres Sanchez,andres.sanchez904@example.com,Cartagena,Bolívar,2025-05-02,Regular
+C0905,Miguel Hernandez,miguel.hernandez905@example.com,Medellín,Antioquia,2024-02-01,Premium
+C0906,Carlos Moreno,carlos.moreno906@example.com,Barranquilla,Atlántico,2025-09-02,Regular
+C0907,Mariana Garcia,mariana.garcia907@example.com,Bogotá,Cundinamarca,2024-07-26,Regular
+C0908,Andres Sanchez,andres.sanchez908@example.com,Ibagué,Tolima,2025-10-16,Regular
+C0909,Laura Perez,laura.perez909@example.com,Medellín,Antioquia,2025-07-03,Regular
+C0910,Sebastian Hernandez,sebastian.hernandez910@example.com,Cali,Valle del Cauca,2024-08-08,Regular
+C0911,Nicolas Martinez,nicolas.martinez911@example.com,Santa Marta,Magdalena,2025-06-21,Regular
+C0912,Mariana Vargas,mariana.vargas912@example.com,Bogotá,Cundinamarca,2024-01-10,Regular
+C0913,Santiago Ramirez,santiago.ramirez913@example.com,Bogotá,Cundinamarca,2024-02-18,Regular
+C0914,Felipe Hernandez,felipe.hernandez914@example.com,Pereira,Risaralda,2025-03-01,Regular
+C0915,Diana Garcia,diana.garcia915@example.com,Medellín,Antioquia,2024-07-15,Regular
+C0916,Laura Ramirez,laura.ramirez916@example.com,Medellín,Antioquia,2024-02-01,Corporativo
+C0917,Miguel Gomez,miguel.gomez917@example.com,Medellín,Antioquia,2024-01-08,Premium
+C0918,Paula Hernandez,paula.hernandez918@example.com,Pereira,Risaralda,2024-03-18,Regular
+C0919,Natalia Martinez,natalia.martinez919@example.com,Cali,Valle del Cauca,2024-01-24,Regular
+C0920,Sebastian Ramirez,sebastian.ramirez920@example.com,Bucaramanga,Santander,2024-07-07,Regular
+C0921,Santiago Torres,santiago.torres921@example.com,Medellín,Antioquia,2025-05-05,Premium
+C0922,Miguel Torres,miguel.torres922@example.com,Cali,Valle del Cauca,2025-05-28,Regular
+C0923,Daniel Ramirez,daniel.ramirez923@example.com,Barranquilla,Atlántico,2024-08-07,Premium
+C0924,Daniel Sanchez,daniel.sanchez924@example.com,Cartagena,Bolívar,2025-04-04,Regular
+C0925,Laura Torres,laura.torres925@example.com,Pereira,Risaralda,2024-03-07,Premium
+C0926,Andrea Perez,andrea.perez926@example.com,Cartagena,Bolívar,2025-08-25,Premium
+C0927,Mateo Lopez,mateo.lopez927@example.com,Manizales,Caldas,2024-12-12,Regular
+C0928,Natalia Hernandez,natalia.hernandez928@example.com,Bogotá,Cundinamarca,2025-05-24,Premium
+C0929,Andres Ruiz,andres.ruiz929@example.com,Bucaramanga,Santander,2024-03-10,Regular
+C0930,Sofia Sanchez,sofia.sanchez930@example.com,Cartagena,Bolívar,2024-03-12,Regular
+C0931,Carlos Rodriguez,carlos.rodriguez931@example.com,Barranquilla,Atlántico,2024-11-04,Regular
+C0932,Camila Gomez,camila.gomez932@example.com,Ibagué,Tolima,2025-04-04,Regular
+C0933,Laura Gomez,laura.gomez933@example.com,Santa Marta,Magdalena,2025-01-26,Corporativo
+C0934,Sebastian Garcia,sebastian.garcia934@example.com,Manizales,Caldas,2025-01-11,Regular
+C0935,Andres Lopez,andres.lopez935@example.com,Barranquilla,Atlántico,2025-07-05,Regular
+C0936,Sebastian Gomez,sebastian.gomez936@example.com,Medellín,Antioquia,2024-10-29,Regular
+C0937,Valentina Rodriguez,valentina.rodriguez937@example.com,Ibagué,Tolima,2024-02-04,Regular
+C0938,Laura Diaz,laura.diaz938@example.com,Bogotá,Cundinamarca,2024-03-30,Regular
+C0939,Mateo Vargas,mateo.vargas939@example.com,Bogotá,Cundinamarca,2024-05-06,Premium
+C0940,Juan Diaz,juan.diaz940@example.com,Bucaramanga,Santander,2025-11-08,Regular
+C0941,Diana Diaz,diana.diaz941@example.com,Bucaramanga,Santander,2024-08-26,Regular
+C0942,Sebastian Ramirez,sebastian.ramirez942@example.com,Ibagué,Tolima,2025-10-12,Regular
+C0943,Sebastian Sanchez,sebastian.sanchez943@example.com,Medellín,Antioquia,2024-11-08,Premium
+C0944,Juliana Perez,juliana.perez944@example.com,Bogotá,Cundinamarca,2024-04-19,Regular
+C0945,Paula Martinez,paula.martinez945@example.com,Bogotá,Cundinamarca,2024-01-19,Regular
+C0946,Valentina Lopez,valentina.lopez946@example.com,Ibagué,Tolima,2025-09-21,Regular
+C0947,Natalia Torres,natalia.torres947@example.com,Medellín,Antioquia,2024-09-15,Regular
+C0948,Nicolas Moreno,nicolas.moreno948@example.com,Bogotá,Cundinamarca,2024-11-10,Regular
+C0949,Valentina Lopez,valentina.lopez949@example.com,Pereira,Risaralda,2024-09-30,Regular
+C0950,Camila Lopez,camila.lopez950@example.com,Santa Marta,Magdalena,2025-11-25,Premium
+C0951,Miguel Sanchez,miguel.sanchez951@example.com,Santa Marta,Magdalena,2025-05-23,Regular
+C0952,Laura Sanchez,laura.sanchez952@example.com,Cartagena,Bolívar,2024-03-02,Premium
+C0953,Paula Rodriguez,paula.rodriguez953@example.com,Barranquilla,Atlántico,2025-07-26,Regular
+C0954,Andrea Sanchez,andrea.sanchez954@example.com,Manizales,Caldas,2024-01-04,Regular
+C0955,Mariana Moreno,mariana.moreno955@example.com,Cali,Valle del Cauca,2024-01-19,Corporativo
+C0956,Natalia Moreno,natalia.moreno956@example.com,Manizales,Caldas,2024-04-21,Regular
+C0957,Nicolas Diaz,nicolas.diaz957@example.com,Bogotá,Cundinamarca,2024-04-19,Regular
+C0958,Mateo Ruiz,mateo.ruiz958@example.com,Manizales,Caldas,2024-04-05,Regular
+C0959,Valentina Martinez,valentina.martinez959@example.com,Bogotá,Cundinamarca,2024-07-19,Regular
+C0960,Sebastian Moreno,sebastian.moreno960@example.com,Ibagué,Tolima,2025-08-26,Regular
+C0961,Andres Vargas,andres.vargas961@example.com,Bogotá,Cundinamarca,2025-05-10,Premium
+C0962,Andrea Sanchez,andrea.sanchez962@example.com,Ibagué,Tolima,2024-03-15,Regular
+C0963,Paula Lopez,paula.lopez963@example.com,Santa Marta,Magdalena,2025-03-21,Regular
+C0964,Felipe Ruiz,felipe.ruiz964@example.com,Santa Marta,Magdalena,2025-03-12,Regular
+C0965,Andres Martinez,andres.martinez965@example.com,Cartagena,Bolívar,2024-08-13,Regular
+C0966,Carlos Diaz,carlos.diaz966@example.com,Manizales,Caldas,2025-09-03,Regular
+C0967,Andrea Torres,andrea.torres967@example.com,Cali,Valle del Cauca,2025-11-12,Regular
+C0968,Sebastian Castro,sebastian.castro968@example.com,Bucaramanga,Santander,2024-02-12,Regular
+C0969,Carlos Moreno,carlos.moreno969@example.com,Cartagena,Bolívar,2025-04-12,Corporativo
+C0970,Paula Gomez,paula.gomez970@example.com,Cali,Valle del Cauca,2024-04-05,Regular
+C0971,Laura Vargas,laura.vargas971@example.com,Medellín,Antioquia,2024-11-01,Regular
+C0972,Sebastian Rodriguez,sebastian.rodriguez972@example.com,Cartagena,Bolívar,2025-02-10,Regular
+C0973,Paula Torres,paula.torres973@example.com,Santa Marta,Magdalena,2025-02-15,Premium
+C0974,Nicolas Gomez,nicolas.gomez974@example.com,Cartagena,Bolívar,2025-07-28,Premium
+C0975,Paula Rodriguez,paula.rodriguez975@example.com,Santa Marta,Magdalena,2025-04-18,Regular
+C0976,Mariana Rodriguez,mariana.rodriguez976@example.com,Barranquilla,Atlántico,2024-07-01,Corporativo
+C0977,Santiago Vargas,santiago.vargas977@example.com,Pereira,Risaralda,2024-07-05,Premium
+C0978,Mateo Martinez,mateo.martinez978@example.com,Manizales,Caldas,2024-03-10,Regular
+C0979,Felipe Lopez,felipe.lopez979@example.com,Barranquilla,Atlántico,2024-09-15,Regular
+C0980,Mateo Hernandez,mateo.hernandez980@example.com,Ibagué,Tolima,2024-07-20,Regular
+C0981,Santiago Sanchez,santiago.sanchez981@example.com,Barranquilla,Atlántico,2025-01-25,Regular
+C0982,Andrea Lopez,andrea.lopez982@example.com,Ibagué,Tolima,2024-11-01,Regular
+C0983,Paula Ruiz,paula.ruiz983@example.com,Bucaramanga,Santander,2024-07-29,Regular
+C0984,Diana Hernandez,diana.hernandez984@example.com,Bogotá,Cundinamarca,2025-03-01,Premium
+C0985,Mateo Lopez,mateo.lopez985@example.com,Manizales,Caldas,2024-04-18,Regular
+C0986,Sofia Sanchez,sofia.sanchez986@example.com,Santa Marta,Magdalena,2024-10-25,Regular
+C0987,Valentina Garcia,valentina.garcia987@example.com,Cartagena,Bolívar,2025-03-28,Regular
+C0988,Mateo Sanchez,mateo.sanchez988@example.com,Medellín,Antioquia,2025-01-13,Regular
+C0989,Juan Hernandez,juan.hernandez989@example.com,Medellín,Antioquia,2025-01-02,Regular
+C0990,Andres Martinez,andres.martinez990@example.com,Ibagué,Tolima,2025-06-15,Premium
+C0047,Laura Torres,laura.torres47@example.com,Bogotá,Cundinamarca,2025-08-03,Regular
+C0048,Daniel Sanchez,daniel.sanchez48@example.com,Medellín,Antioquia,2025-09-24,Regular
+C0049,Felipe Gomez,felipe.gomez49@example.com,Barranquilla,Atlántico,2024-04-11,Regular
+C0050,Valentina Ramirez,valentina.ramirez50@example.com,Cartagena,Bolívar,2024-05-04,Regular
+C0051,Camila Hernandez,camila.hernandez51@example.com,Cali,Valle del Cauca,2025-01-30,Regular
+C0052,Sebastian Sanchez,sebastian.sanchez52@example.com,Medellín,Antioquia,2024-01-01,Regular
+C0053,Camila Garcia,camila.garcia53@example.com,Medellín,Antioquia,2025-03-26,Regular
+C0054,Paula Hernandez,paula.hernandez54@example.com,Santa Marta,Magdalena,2025-05-02,Corporativo
+C0055,Diana Martinez,diana.martinez55@example.com,Cali,Valle del Cauca,2024-09-17,Regular
+C0056,Daniel Rodriguez,daniel.rodriguez56@example.com,Medellín,Antioquia,2024-03-05,Regular
