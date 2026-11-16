@@ -34,30 +34,9 @@ El objetivo técnico consiste en transformar archivos transaccionales en un mode
 ---
 
 # 2. Arquitectura
+![diagrama arquitectura_1794795049169.png](./diagrama arquitectura_1794795049169.png "diagrama arquitectura_1794795049169.png")
 
-La arquitectura implementada es:
 
-```text
-Archivos CSV
-    ↓
-Azure Data Lake Storage Gen2
-Container RAW
-    ↓
-Azure Databricks
-    ↓
-BRONZE
-    ↓
-SILVER
-    ↓
-GOLD / Delta Lake
-Modelo Estrella
-    ↓
-Databricks SQL Warehouse
-    ↓
-Power BI Desktop
-    ↓
-Dashboard analítico
-```
 
 La seguridad, gobierno y automatización se implementan transversalmente mediante:
 
@@ -72,32 +51,6 @@ La seguridad, gobierno y automatización se implementan transversalmente mediant
 - GitHub
 - GitHub Actions
 - Databricks REST API
-
-> **Nota arquitectónica:** no se implementó una capa adicional de serving en Azure SQL Database. Power BI Desktop consulta directamente las tablas analíticas de Gold mediante un Databricks SQL Warehouse.
-
----
-
-# 3. Arquitectura general
-
-La arquitectura completa del proyecto se encuentra documentada en las evidencias del repositorio.
-
-El flujo principal es:
-
-```text
-ADLS Gen2 RAW
-    ↓
-Azure Databricks
-    ↓
-Bronze / Delta Lake
-    ↓
-Silver / Delta Lake
-    ↓
-Gold / Delta Lake
-    ↓
-Databricks SQL Warehouse
-    ↓
-Power BI Desktop
-```
 
 ## Componentes principales
 
