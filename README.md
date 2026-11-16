@@ -34,7 +34,8 @@ El objetivo técnico consiste en transformar archivos transaccionales en un mode
 ---
 
 # 2. Arquitectura
-![diagrama arquitectura_1794795049169.png](./diagrama arquitectura_1794795049169.png "diagrama arquitectura_1794795049169.png")
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3149badc-5e5c-403a-9435-5a029f0b46eb" />
+
 
 
 
